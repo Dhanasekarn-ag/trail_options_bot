@@ -1,0 +1,714 @@
+2025-08-08 10:09:03,922 - __main__ - INFO - main.py:28 - Starting Enhanced AstraRise Trading Bot with Options & Greeks
+2025-08-08 10:09:03,940 - src.upstox_client - INFO - upstox_client.py:54 - Loaded stored access token from 2025-08-06T09:50:02.480277
+2025-08-08 10:09:03,941 - src.utils.notification - INFO - notification.py:27 - Telegram enabled for 2 chats: ['5636009404', '-1002867661585']
+2025-08-08 10:09:03,944 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:61 - Enhanced Pine Script Strategy initialized: BIDIRECTIONAL mode
+2025-08-08 10:09:03,944 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:66 - Option chain manager configured
+2025-08-08 10:09:03,944 - src.trading_bot - INFO - trading_bot.py:265 - Added enhanced strategy: enhanced_bidirectional_pine_script
+2025-08-08 10:09:03,945 - src.trading_bot - INFO - trading_bot.py:270 - Expected Performance - Win Rate: 67.0%, Monthly Return: 4.0%
+2025-08-08 10:09:03,945 - __main__ - INFO - main.py:67 - Enhanced Strategy Loaded: enhanced_bidirectional_pine_script
+2025-08-08 10:09:03,945 - __main__ - INFO - main.py:68 - Features: Options Integration, Greeks Analysis, Backtested Parameters
+2025-08-08 10:09:03,947 - __main__ - INFO - main.py:69 - Expected Win Rate: 67% | Target Monthly Return: 4%
+2025-08-08 10:09:03,947 - __main__ - INFO - main.py:70 - Risk Management: Max Rs.25 theta/day, Min 0.3 delta
+2025-08-08 10:09:03,948 - src.trading_bot - INFO - trading_bot.py:1521 - Starting enhanced trading bot...
+2025-08-08 10:09:04,962 - src.trading_bot - INFO - trading_bot.py:903 - Found stored access token, testing...
+2025-08-08 10:09:05,360 - src.upstox_client - ERROR - upstox_client.py:169 - API request failed: 401, message='Unauthorized', url='https://api.upstox.com/v2/user/profile'
+2025-08-08 10:09:05,380 - src.trading_bot - INFO - trading_bot.py:910 - Stored token is invalid, requesting new authentication
+2025-08-08 10:10:00,970 - src.upstox_client - INFO - upstox_client.py:38 - Access token saved successfully
+2025-08-08 10:10:00,970 - src.upstox_client - INFO - upstox_client.py:101 - Access token obtained and saved successfully
+2025-08-08 10:10:00,972 - src.trading_bot - INFO - trading_bot.py:916 - Successfully authenticated with Upstox
+2025-08-08 10:10:09,447 - src.websocket.websocket_manager - INFO - websocket_manager.py:277 - WebSocket callbacks configured
+2025-08-08 10:10:09,448 - src.websocket.websocket_manager - INFO - websocket_manager.py:282 - Subscribed to instruments: ['NSE_INDEX|Nifty 50', 'NSE_INDEX|Nifty Bank', 'BSE_INDEX|SENSEX']
+2025-08-08 10:10:09,449 - src.websocket.websocket_manager - INFO - websocket_manager.py:349 - Starting WebSocket streams...
+2025-08-08 10:10:09,508 - src.websocket.websocket_manager - INFO - websocket_manager.py:313 - Market data websocket connection initiated
+2025-08-08 10:10:09,514 - src.websocket.websocket_manager - INFO - websocket_manager.py:341 - Portfolio data websocket connection initiated
+2025-08-08 10:10:09,515 - src.websocket.websocket_manager - INFO - websocket_manager.py:353 - WebSocket streams started successfully
+2025-08-08 10:10:09,521 - src.trading_bot - INFO - trading_bot.py:309 - WebSocket connections established successfully
+2025-08-08 10:10:09,986 - websocket - INFO - _logging.py:89 - Websocket connected
+2025-08-08 10:10:09,987 - src.websocket.websocket_manager - INFO - websocket_manager.py:388 - Websocket connected
+2025-08-08 10:10:09,988 - src.websocket.websocket_manager - INFO - websocket_manager.py:389 - Market data websocket connected
+2025-08-08 10:10:10,026 - websocket - INFO - _logging.py:89 - Websocket connected
+2025-08-08 10:10:10,029 - src.websocket.websocket_manager - INFO - websocket_manager.py:579 - Websocket connected
+2025-08-08 10:10:10,030 - src.websocket.websocket_manager - INFO - websocket_manager.py:580 - Portfolio data websocket connected
+2025-08-08 10:10:12,945 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 0/15 | Next: 47s
+2025-08-08 10:10:42,950 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 0/15 | Next: 17s
+2025-08-08 10:11:00,182 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - NIFTY: O:24452.95 H:24459.05 L:24451.80 C:24457.15
+2025-08-08 10:11:00,183 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - NIFTY: O:24455.05 H:24459.05 L:24451.80 C:24455.24
+2025-08-08 10:11:00,183 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for NIFTY: 1/15 HA candles collected
+2025-08-08 10:11:00,332 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - BANKNIFTY: O:55269.40 H:55286.00 L:55263.75 C:55274.90
+2025-08-08 10:11:00,332 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - BANKNIFTY: O:55272.15 H:55286.00 L:55263.75 C:55273.51
+2025-08-08 10:11:00,332 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for BANKNIFTY: 1/15 HA candles collected
+2025-08-08 10:11:00,632 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - SENSEX: O:80142.55 H:80173.24 L:80142.55 C:80167.10
+2025-08-08 10:11:00,632 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - SENSEX: O:80154.83 H:80173.24 L:80142.55 C:80156.36
+2025-08-08 10:11:00,632 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for SENSEX: 1/15 HA candles collected
+2025-08-08 10:11:12,956 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 1/15 | Next: 47s
+2025-08-08 10:11:42,965 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 1/15 | Next: 17s
+2025-08-08 10:12:00,183 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - NIFTY: O:24456.55 H:24458.85 L:24455.10 C:24456.25
+2025-08-08 10:12:00,183 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - NIFTY: O:24455.14 H:24458.85 L:24455.10 C:24456.69
+2025-08-08 10:12:00,184 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for NIFTY: 2/15 HA candles collected
+2025-08-08 10:12:00,482 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - BANKNIFTY: O:55277.70 H:55280.75 L:55258.95 C:55266.00
+2025-08-08 10:12:00,482 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - BANKNIFTY: O:55272.83 H:55280.75 L:55258.95 C:55270.85
+2025-08-08 10:12:00,482 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for BANKNIFTY: 2/15 HA candles collected
+2025-08-08 10:12:00,785 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - SENSEX: O:80165.27 H:80167.59 L:80150.25 C:80158.30
+2025-08-08 10:12:00,786 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - SENSEX: O:80155.59 H:80167.59 L:80150.25 C:80160.35
+2025-08-08 10:12:00,786 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for SENSEX: 2/15 HA candles collected
+2025-08-08 10:12:12,969 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 2/15 | Next: 47s
+2025-08-08 10:12:42,979 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 2/15 | Next: 17s
+2025-08-08 10:13:00,183 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - NIFTY: O:24456.05 H:24456.50 L:24446.45 C:24450.25
+2025-08-08 10:13:00,183 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - NIFTY: O:24455.92 H:24456.50 L:24446.45 C:24452.31
+2025-08-08 10:13:00,184 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for NIFTY: 3/15 HA candles collected
+2025-08-08 10:13:00,933 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - BANKNIFTY: O:55265.90 H:55265.90 L:55236.85 C:55256.55
+2025-08-08 10:13:00,934 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - BANKNIFTY: O:55271.84 H:55271.84 L:55236.85 C:55256.30
+2025-08-08 10:13:00,934 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for BANKNIFTY: 3/15 HA candles collected
+2025-08-08 10:13:00,935 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - SENSEX: O:80158.85 H:80159.36 L:80130.32 C:80135.32
+2025-08-08 10:13:00,935 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - SENSEX: O:80157.97 H:80159.36 L:80130.32 C:80145.96
+2025-08-08 10:13:00,935 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for SENSEX: 3/15 HA candles collected
+2025-08-08 10:13:12,980 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 3/15 | Next: 47s
+2025-08-08 10:13:42,985 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 3/15 | Next: 17s
+2025-08-08 10:14:00,063 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - SENSEX: O:80135.42 H:80153.39 L:80135.42 C:80147.63
+2025-08-08 10:14:00,064 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - SENSEX: O:80151.97 H:80153.39 L:80135.42 C:80142.96
+2025-08-08 10:14:00,064 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for SENSEX: 4/15 HA candles collected
+2025-08-08 10:14:00,187 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - NIFTY: O:24450.50 H:24454.60 L:24448.55 C:24449.75
+2025-08-08 10:14:00,188 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - NIFTY: O:24454.11 H:24454.60 L:24448.55 C:24450.85
+2025-08-08 10:14:00,188 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for NIFTY: 4/15 HA candles collected
+2025-08-08 10:14:00,485 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - BANKNIFTY: O:55252.40 H:55257.20 L:55239.20 C:55248.25
+2025-08-08 10:14:00,486 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - BANKNIFTY: O:55264.07 H:55264.07 L:55239.20 C:55249.26
+2025-08-08 10:14:00,486 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for BANKNIFTY: 4/15 HA candles collected
+2025-08-08 10:14:12,995 - src.trading_bot - WARNING - trading_bot.py:465 - No recent WebSocket data detected during market hours
+2025-08-08 10:14:12,995 - src.trading_bot - INFO - trading_bot.py:477 - Saving 4 HA candles for NIFTY
+2025-08-08 10:14:12,996 - src.trading_bot - INFO - trading_bot.py:477 - Saving 4 HA candles for BANKNIFTY
+2025-08-08 10:14:12,996 - src.trading_bot - INFO - trading_bot.py:477 - Saving 4 HA candles for SENSEX
+2025-08-08 10:14:12,997 - src.websocket.websocket_manager - INFO - websocket_manager.py:363 - Stopping WebSocket streams...
+2025-08-08 10:14:13,056 - src.websocket.websocket_manager - WARNING - websocket_manager.py:574 - Market data websocket connection closed - Code: None, Reason: None
+2025-08-08 10:14:13,123 - src.websocket.websocket_manager - WARNING - websocket_manager.py:596 - Portfolio data websocket connection closed - Code: None, Reason: None
+2025-08-08 10:14:13,124 - src.websocket.websocket_manager - INFO - websocket_manager.py:380 - WebSocket streams stopped
+2025-08-08 10:14:15,140 - src.websocket.websocket_manager - INFO - websocket_manager.py:277 - WebSocket callbacks configured
+2025-08-08 10:14:15,140 - src.websocket.websocket_manager - INFO - websocket_manager.py:282 - Subscribed to instruments: ['NSE_INDEX|Nifty 50', 'NSE_INDEX|Nifty Bank', 'BSE_INDEX|SENSEX']
+2025-08-08 10:14:15,141 - src.websocket.websocket_manager - INFO - websocket_manager.py:349 - Starting WebSocket streams...
+2025-08-08 10:14:15,146 - src.websocket.websocket_manager - INFO - websocket_manager.py:313 - Market data websocket connection initiated
+2025-08-08 10:14:15,151 - src.websocket.websocket_manager - INFO - websocket_manager.py:341 - Portfolio data websocket connection initiated
+2025-08-08 10:14:15,152 - src.websocket.websocket_manager - INFO - websocket_manager.py:353 - WebSocket streams started successfully
+2025-08-08 10:14:15,152 - src.trading_bot - INFO - trading_bot.py:309 - WebSocket connections established successfully
+2025-08-08 10:14:15,815 - websocket - INFO - _logging.py:89 - Websocket connected
+2025-08-08 10:14:15,816 - websocket - INFO - _logging.py:89 - Websocket connected
+2025-08-08 10:14:15,817 - src.websocket.websocket_manager - INFO - websocket_manager.py:579 - Websocket connected
+2025-08-08 10:14:15,817 - src.websocket.websocket_manager - INFO - websocket_manager.py:388 - Websocket connected
+2025-08-08 10:14:15,817 - src.websocket.websocket_manager - INFO - websocket_manager.py:580 - Portfolio data websocket connected
+2025-08-08 10:14:15,818 - src.websocket.websocket_manager - INFO - websocket_manager.py:389 - Market data websocket connected
+2025-08-08 10:14:16,909 - src.websocket.websocket_manager - INFO - websocket_manager.py:665 - Restored 4 HA candles for NIFTY
+2025-08-08 10:14:16,910 - src.websocket.websocket_manager - INFO - websocket_manager.py:665 - Restored 4 HA candles for BANKNIFTY
+2025-08-08 10:14:16,910 - src.websocket.websocket_manager - INFO - websocket_manager.py:665 - Restored 4 HA candles for SENSEX
+2025-08-08 10:14:18,572 - src.trading_bot - INFO - trading_bot.py:504 - WebSocket reconnected with candle history preserved
+2025-08-08 10:14:18,572 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 4/15 | Next: 41s
+2025-08-08 10:14:48,574 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 4/15 | Next: 11s
+2025-08-08 10:15:00,188 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - NIFTY: O:24452.50 H:24452.90 L:24448.60 C:24449.30
+2025-08-08 10:15:00,189 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - NIFTY: O:24450.90 H:24452.90 L:24448.60 C:24450.83
+2025-08-08 10:15:00,189 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for NIFTY: 5/15 HA candles collected
+2025-08-08 10:15:00,190 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - SENSEX: O:80148.11 H:80154.43 L:80137.88 C:80143.91
+2025-08-08 10:15:00,190 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - SENSEX: O:80146.01 H:80154.43 L:80137.88 C:80146.08
+2025-08-08 10:15:00,191 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for SENSEX: 5/15 HA candles collected
+2025-08-08 10:15:00,486 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - BANKNIFTY: O:55245.95 H:55253.45 L:55238.35 C:55243.60
+2025-08-08 10:15:00,487 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - BANKNIFTY: O:55244.77 H:55253.45 L:55238.35 C:55245.34
+2025-08-08 10:15:00,487 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for BANKNIFTY: 5/15 HA candles collected
+2025-08-08 10:15:18,576 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 5/15 | Next: 41s
+2025-08-08 10:15:48,579 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 5/15 | Next: 11s
+2025-08-08 10:16:00,187 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - NIFTY: O:24448.35 H:24453.10 L:24447.20 C:24447.35
+2025-08-08 10:16:00,188 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - NIFTY: O:24450.86 H:24453.10 L:24447.20 C:24449.00
+2025-08-08 10:16:00,188 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for NIFTY: 6/15 HA candles collected
+2025-08-08 10:16:00,343 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - SENSEX: O:80139.40 H:80150.02 L:80131.05 C:80131.05
+2025-08-08 10:16:00,344 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - SENSEX: O:80146.05 H:80150.02 L:80131.05 C:80137.88
+2025-08-08 10:16:00,344 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for SENSEX: 6/15 HA candles collected
+2025-08-08 10:16:00,486 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - BANKNIFTY: O:55246.85 H:55246.85 L:55234.80 C:55236.40
+2025-08-08 10:16:00,487 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - BANKNIFTY: O:55245.06 H:55246.85 L:55234.80 C:55241.22
+2025-08-08 10:16:00,487 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for BANKNIFTY: 6/15 HA candles collected
+2025-08-08 10:16:18,581 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 6/15 | Next: 41s
+2025-08-08 10:16:48,586 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 6/15 | Next: 11s
+2025-08-08 10:17:00,487 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - BANKNIFTY: O:55240.60 H:55242.65 L:55223.05 C:55242.10
+2025-08-08 10:17:00,488 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - BANKNIFTY: O:55243.14 H:55243.14 L:55223.05 C:55237.10
+2025-08-08 10:17:00,488 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for BANKNIFTY: 7/15 HA candles collected
+2025-08-08 10:17:00,489 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - SENSEX: O:80129.50 H:80136.66 L:80122.07 C:80129.06
+2025-08-08 10:17:00,489 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - SENSEX: O:80141.96 H:80141.96 L:80122.07 C:80129.32
+2025-08-08 10:17:00,490 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for SENSEX: 7/15 HA candles collected
+2025-08-08 10:17:00,637 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - NIFTY: O:24447.00 H:24450.10 L:24443.20 C:24449.30
+2025-08-08 10:17:00,638 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - NIFTY: O:24449.93 H:24450.10 L:24443.20 C:24447.40
+2025-08-08 10:17:00,638 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for NIFTY: 7/15 HA candles collected
+2025-08-08 10:17:18,600 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 7/15 | Next: 41s
+2025-08-08 10:17:48,604 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 7/15 | Next: 11s
+2025-08-08 10:18:00,208 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - NIFTY: O:24449.25 H:24452.60 L:24448.70 C:24452.60
+2025-08-08 10:18:00,209 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - NIFTY: O:24448.67 H:24452.60 L:24448.67 C:24450.79
+2025-08-08 10:18:00,209 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for NIFTY: 8/15 HA candles collected
+2025-08-08 10:18:00,495 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - BANKNIFTY: O:55238.80 H:55261.85 L:55237.30 C:55259.90
+2025-08-08 10:18:00,496 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - BANKNIFTY: O:55240.12 H:55261.85 L:55237.30 C:55249.46
+2025-08-08 10:18:00,496 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for BANKNIFTY: 8/15 HA candles collected
+2025-08-08 10:18:00,497 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - SENSEX: O:80130.63 H:80145.46 L:80130.37 C:80139.14
+2025-08-08 10:18:00,497 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - SENSEX: O:80135.64 H:80145.46 L:80130.37 C:80136.40
+2025-08-08 10:18:00,498 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for SENSEX: 8/15 HA candles collected
+2025-08-08 10:18:18,607 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 8/15 | Next: 41s
+2025-08-08 10:18:48,621 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 8/15 | Next: 11s
+2025-08-08 10:19:00,191 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - NIFTY: O:24452.35 H:24464.05 L:24452.35 C:24460.00
+2025-08-08 10:19:00,191 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - NIFTY: O:24449.73 H:24464.05 L:24449.73 C:24457.19
+2025-08-08 10:19:00,191 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for NIFTY: 9/15 HA candles collected
+2025-08-08 10:19:00,499 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - BANKNIFTY: O:55261.10 H:55276.95 L:55254.65 C:55259.15
+2025-08-08 10:19:00,500 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - BANKNIFTY: O:55244.79 H:55276.95 L:55244.79 C:55262.96
+2025-08-08 10:19:00,500 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for BANKNIFTY: 9/15 HA candles collected
+2025-08-08 10:19:00,650 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - SENSEX: O:80139.40 H:80182.01 L:80138.51 C:80171.97
+2025-08-08 10:19:00,650 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - SENSEX: O:80136.02 H:80182.01 L:80136.02 C:80157.97
+2025-08-08 10:19:00,650 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for SENSEX: 9/15 HA candles collected
+2025-08-08 10:19:18,638 - src.trading_bot - WARNING - trading_bot.py:465 - No recent WebSocket data detected during market hours
+2025-08-08 10:19:18,639 - src.trading_bot - INFO - trading_bot.py:477 - Saving 9 HA candles for NIFTY
+2025-08-08 10:19:18,639 - src.trading_bot - INFO - trading_bot.py:477 - Saving 9 HA candles for BANKNIFTY
+2025-08-08 10:19:18,640 - src.trading_bot - INFO - trading_bot.py:477 - Saving 9 HA candles for SENSEX
+2025-08-08 10:19:18,640 - src.websocket.websocket_manager - INFO - websocket_manager.py:363 - Stopping WebSocket streams...
+2025-08-08 10:19:18,641 - src.websocket.websocket_manager - WARNING - websocket_manager.py:574 - Market data websocket connection closed - Code: None, Reason: None
+2025-08-08 10:19:18,739 - src.websocket.websocket_manager - WARNING - websocket_manager.py:596 - Portfolio data websocket connection closed - Code: None, Reason: None
+2025-08-08 10:19:18,740 - src.websocket.websocket_manager - INFO - websocket_manager.py:380 - WebSocket streams stopped
+2025-08-08 10:19:20,751 - src.websocket.websocket_manager - INFO - websocket_manager.py:277 - WebSocket callbacks configured
+2025-08-08 10:19:20,751 - src.websocket.websocket_manager - INFO - websocket_manager.py:282 - Subscribed to instruments: ['NSE_INDEX|Nifty 50', 'NSE_INDEX|Nifty Bank', 'BSE_INDEX|SENSEX']
+2025-08-08 10:19:20,752 - src.websocket.websocket_manager - INFO - websocket_manager.py:349 - Starting WebSocket streams...
+2025-08-08 10:19:20,757 - src.websocket.websocket_manager - INFO - websocket_manager.py:313 - Market data websocket connection initiated
+2025-08-08 10:19:20,762 - src.websocket.websocket_manager - INFO - websocket_manager.py:341 - Portfolio data websocket connection initiated
+2025-08-08 10:19:20,762 - src.websocket.websocket_manager - INFO - websocket_manager.py:353 - WebSocket streams started successfully
+2025-08-08 10:19:20,763 - src.trading_bot - INFO - trading_bot.py:309 - WebSocket connections established successfully
+2025-08-08 10:19:21,269 - websocket - INFO - _logging.py:89 - Websocket connected
+2025-08-08 10:19:21,270 - src.websocket.websocket_manager - INFO - websocket_manager.py:388 - Websocket connected
+2025-08-08 10:19:21,271 - src.websocket.websocket_manager - INFO - websocket_manager.py:389 - Market data websocket connected
+2025-08-08 10:19:21,441 - websocket - INFO - _logging.py:89 - Websocket connected
+2025-08-08 10:19:21,442 - src.websocket.websocket_manager - INFO - websocket_manager.py:579 - Websocket connected
+2025-08-08 10:19:21,442 - src.websocket.websocket_manager - INFO - websocket_manager.py:580 - Portfolio data websocket connected
+2025-08-08 10:19:22,590 - src.websocket.websocket_manager - INFO - websocket_manager.py:665 - Restored 9 HA candles for NIFTY
+2025-08-08 10:19:22,590 - src.websocket.websocket_manager - INFO - websocket_manager.py:665 - Restored 9 HA candles for BANKNIFTY
+2025-08-08 10:19:22,591 - src.websocket.websocket_manager - INFO - websocket_manager.py:665 - Restored 9 HA candles for SENSEX
+2025-08-08 10:19:24,271 - src.trading_bot - INFO - trading_bot.py:504 - WebSocket reconnected with candle history preserved
+2025-08-08 10:19:24,271 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 9/15 | Next: 35s
+2025-08-08 10:19:54,277 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 9/15 | Next: 5s
+2025-08-08 10:20:00,194 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - NIFTY: O:24459.75 H:24459.75 L:24456.25 C:24457.40
+2025-08-08 10:20:00,195 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - NIFTY: O:24458.58 H:24459.75 L:24456.25 C:24458.29
+2025-08-08 10:20:00,195 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for NIFTY: 10/15 HA candles collected
+2025-08-08 10:20:00,500 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - BANKNIFTY: O:55260.25 H:55261.25 L:55247.05 C:55257.95
+2025-08-08 10:20:00,501 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - BANKNIFTY: O:55259.10 H:55261.25 L:55247.05 C:55256.62
+2025-08-08 10:20:00,501 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for BANKNIFTY: 10/15 HA candles collected
+2025-08-08 10:20:01,855 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - SENSEX: O:80169.06 H:80169.06 L:80156.44 C:80163.09
+2025-08-08 10:20:01,856 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - SENSEX: O:80166.07 H:80169.06 L:80156.44 C:80164.41
+2025-08-08 10:20:01,856 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for SENSEX: 10/15 HA candles collected
+2025-08-08 10:20:24,293 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 10/15 | Next: 35s
+2025-08-08 10:20:54,311 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 10/15 | Next: 5s
+2025-08-08 10:21:00,202 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - NIFTY: O:24457.15 H:24458.20 L:24448.15 C:24449.70
+2025-08-08 10:21:00,203 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - NIFTY: O:24458.43 H:24458.43 L:24448.15 C:24453.30
+2025-08-08 10:21:00,203 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for NIFTY: 11/15 HA candles collected
+2025-08-08 10:21:00,502 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - BANKNIFTY: O:55261.80 H:55261.80 L:55234.25 C:55235.45
+2025-08-08 10:21:00,503 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - BANKNIFTY: O:55257.86 H:55261.80 L:55234.25 C:55248.32
+2025-08-08 10:21:00,503 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for BANKNIFTY: 11/15 HA candles collected
+2025-08-08 10:21:02,002 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - SENSEX: O:80160.84 H:80163.33 L:80138.28 C:80142.54
+2025-08-08 10:21:02,003 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - SENSEX: O:80165.24 H:80165.24 L:80138.28 C:80151.25
+2025-08-08 10:21:02,003 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for SENSEX: 11/15 HA candles collected
+2025-08-08 10:21:24,327 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 11/15 | Next: 35s
+2025-08-08 10:21:54,336 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 11/15 | Next: 5s
+2025-08-08 10:22:00,061 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - BANKNIFTY: O:55236.25 H:55252.65 L:55224.25 C:55249.15
+2025-08-08 10:22:00,062 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - BANKNIFTY: O:55253.09 H:55253.09 L:55224.25 C:55240.57
+2025-08-08 10:22:00,062 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for BANKNIFTY: 12/15 HA candles collected
+2025-08-08 10:22:00,063 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - SENSEX: O:80139.39 H:80141.24 L:80117.37 C:80127.14
+2025-08-08 10:22:00,063 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - SENSEX: O:80158.25 H:80158.25 L:80117.37 C:80131.29
+2025-08-08 10:22:00,064 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for SENSEX: 12/15 HA candles collected
+2025-08-08 10:22:00,215 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - NIFTY: O:24448.80 H:24451.20 L:24443.15 C:24450.05
+2025-08-08 10:22:00,216 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - NIFTY: O:24455.87 H:24455.87 L:24443.15 C:24448.30
+2025-08-08 10:22:00,216 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for NIFTY: 12/15 HA candles collected
+2025-08-08 10:22:24,348 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 12/15 | Next: 35s
+2025-08-08 10:22:54,354 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 12/15 | Next: 5s
+2025-08-08 10:23:00,071 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - BANKNIFTY: O:55249.05 H:55252.35 L:55230.60 C:55240.60
+2025-08-08 10:23:00,072 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - BANKNIFTY: O:55246.83 H:55252.35 L:55230.60 C:55243.15
+2025-08-08 10:23:00,072 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for BANKNIFTY: 13/15 HA candles collected
+2025-08-08 10:23:00,243 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - NIFTY: O:24450.00 H:24450.70 L:24446.45 C:24449.50
+2025-08-08 10:23:00,244 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - NIFTY: O:24452.08 H:24452.08 L:24446.45 C:24449.16
+2025-08-08 10:23:00,244 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for NIFTY: 13/15 HA candles collected
+2025-08-08 10:23:00,245 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - SENSEX: O:80126.73 H:80143.56 L:80124.99 C:80134.83
+2025-08-08 10:23:00,245 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - SENSEX: O:80144.77 H:80144.77 L:80124.99 C:80132.53
+2025-08-08 10:23:00,246 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for SENSEX: 13/15 HA candles collected
+2025-08-08 10:23:24,373 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 13/15 | Next: 35s
+2025-08-08 10:23:54,380 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 13/15 | Next: 5s
+2025-08-08 10:24:00,081 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - BANKNIFTY: O:55246.60 H:55279.25 L:55235.70 C:55275.30
+2025-08-08 10:24:00,082 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - BANKNIFTY: O:55244.99 H:55279.25 L:55235.70 C:55259.21
+2025-08-08 10:24:00,082 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for BANKNIFTY: 14/15 HA candles collected
+2025-08-08 10:24:00,225 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - NIFTY: O:24451.35 H:24463.75 L:24449.75 C:24462.60
+2025-08-08 10:24:00,226 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - NIFTY: O:24450.62 H:24463.75 L:24449.75 C:24456.86
+2025-08-08 10:24:00,226 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for NIFTY: 14/15 HA candles collected
+2025-08-08 10:24:00,377 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - SENSEX: O:80138.65 H:80174.02 L:80138.28 C:80168.80
+2025-08-08 10:24:00,378 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - SENSEX: O:80138.65 H:80174.02 L:80138.28 C:80154.94
+2025-08-08 10:24:00,378 - src.websocket.websocket_manager - INFO - websocket_manager.py:504 - Building data for SENSEX: 14/15 HA candles collected
+2025-08-08 10:24:24,396 - src.trading_bot - WARNING - trading_bot.py:465 - No recent WebSocket data detected during market hours
+2025-08-08 10:24:24,397 - src.trading_bot - INFO - trading_bot.py:477 - Saving 14 HA candles for NIFTY
+2025-08-08 10:24:24,397 - src.trading_bot - INFO - trading_bot.py:477 - Saving 14 HA candles for BANKNIFTY
+2025-08-08 10:24:24,398 - src.trading_bot - INFO - trading_bot.py:477 - Saving 14 HA candles for SENSEX
+2025-08-08 10:24:24,398 - src.websocket.websocket_manager - INFO - websocket_manager.py:363 - Stopping WebSocket streams...
+2025-08-08 10:24:24,445 - src.websocket.websocket_manager - WARNING - websocket_manager.py:574 - Market data websocket connection closed - Code: None, Reason: None
+2025-08-08 10:24:24,501 - src.websocket.websocket_manager - WARNING - websocket_manager.py:596 - Portfolio data websocket connection closed - Code: None, Reason: None
+2025-08-08 10:24:24,502 - src.websocket.websocket_manager - INFO - websocket_manager.py:380 - WebSocket streams stopped
+2025-08-08 10:24:26,531 - src.websocket.websocket_manager - INFO - websocket_manager.py:277 - WebSocket callbacks configured
+2025-08-08 10:24:26,532 - src.websocket.websocket_manager - INFO - websocket_manager.py:282 - Subscribed to instruments: ['NSE_INDEX|Nifty 50', 'NSE_INDEX|Nifty Bank', 'BSE_INDEX|SENSEX']
+2025-08-08 10:24:26,532 - src.websocket.websocket_manager - INFO - websocket_manager.py:349 - Starting WebSocket streams...
+2025-08-08 10:24:26,536 - src.websocket.websocket_manager - INFO - websocket_manager.py:313 - Market data websocket connection initiated
+2025-08-08 10:24:26,541 - src.websocket.websocket_manager - INFO - websocket_manager.py:341 - Portfolio data websocket connection initiated
+2025-08-08 10:24:26,542 - src.websocket.websocket_manager - INFO - websocket_manager.py:353 - WebSocket streams started successfully
+2025-08-08 10:24:26,542 - src.trading_bot - INFO - trading_bot.py:309 - WebSocket connections established successfully
+2025-08-08 10:24:27,851 - websocket - INFO - _logging.py:89 - Websocket connected
+2025-08-08 10:24:27,852 - src.websocket.websocket_manager - INFO - websocket_manager.py:579 - Websocket connected
+2025-08-08 10:24:27,853 - src.websocket.websocket_manager - INFO - websocket_manager.py:580 - Portfolio data websocket connected
+2025-08-08 10:24:27,854 - websocket - INFO - _logging.py:89 - Websocket connected
+2025-08-08 10:24:27,855 - src.websocket.websocket_manager - INFO - websocket_manager.py:388 - Websocket connected
+2025-08-08 10:24:27,855 - src.websocket.websocket_manager - INFO - websocket_manager.py:389 - Market data websocket connected
+2025-08-08 10:24:28,280 - src.websocket.websocket_manager - INFO - websocket_manager.py:665 - Restored 14 HA candles for NIFTY
+2025-08-08 10:24:28,281 - src.websocket.websocket_manager - INFO - websocket_manager.py:665 - Restored 14 HA candles for BANKNIFTY
+2025-08-08 10:24:28,281 - src.websocket.websocket_manager - INFO - websocket_manager.py:665 - Restored 14 HA candles for SENSEX
+2025-08-08 10:24:29,955 - src.trading_bot - INFO - trading_bot.py:504 - WebSocket reconnected with candle history preserved
+2025-08-08 10:24:29,956 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 14/15 | Next: 30s
+2025-08-08 10:24:59,965 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Candles: 14/15 | Next: 0s
+2025-08-08 10:25:00,092 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - BANKNIFTY: O:55276.60 H:55286.80 L:55270.55 C:55282.15
+2025-08-08 10:25:00,093 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - BANKNIFTY: O:55279.38 H:55286.80 L:55270.55 C:55279.03
+2025-08-08 10:25:00,093 - src.websocket.websocket_manager - INFO - websocket_manager.py:506 - READY! BANKNIFTY has enough data (15 candles) - Strategy can now analyze!
+2025-08-08 10:25:00,094 - src.websocket.websocket_manager - INFO - websocket_manager.py:524 - No event loop - storing callback for BANKNIFTY
+2025-08-08 10:25:00,238 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - NIFTY: O:24464.10 H:24468.25 L:24462.65 C:24467.40
+2025-08-08 10:25:00,238 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - NIFTY: O:24465.75 H:24468.25 L:24462.65 C:24465.60
+2025-08-08 10:25:00,239 - src.websocket.websocket_manager - INFO - websocket_manager.py:506 - READY! NIFTY has enough data (15 candles) - Strategy can now analyze!
+2025-08-08 10:25:00,239 - src.websocket.websocket_manager - INFO - websocket_manager.py:524 - No event loop - storing callback for NIFTY
+2025-08-08 10:25:00,382 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - SENSEX: O:80180.65 H:80192.58 L:80173.26 C:80189.52
+2025-08-08 10:25:00,382 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - SENSEX: O:80185.08 H:80192.58 L:80173.26 C:80184.00
+2025-08-08 10:25:00,383 - src.websocket.websocket_manager - INFO - websocket_manager.py:506 - READY! SENSEX has enough data (15 candles) - Strategy can now analyze!
+2025-08-08 10:25:00,383 - src.websocket.websocket_manager - INFO - websocket_manager.py:524 - No event loop - storing callback for SENSEX
+2025-08-08 10:25:29,971 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Strategy: Active | Candles: 15 | Next: 30s
+2025-08-08 10:25:29,971 - src.trading_bot - INFO - trading_bot.py:112 - NEW HA CANDLE - BANKNIFTY: O:55279.38 H:55286.80 L:55270.55 C:55279.03
+2025-08-08 10:25:29,972 - src.trading_bot - INFO - trading_bot.py:132 - STRATEGY READY - BANKNIFTY has 15 candles - EXECUTING ANALYSIS...
+2025-08-08 10:25:29,972 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for BANKNIFTY
+2025-08-08 10:25:29,973 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=55279.03, Candles=15
+2025-08-08 10:25:29,973 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:25:29,973 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:25:29,974 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:25:29,974 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for BANKNIFTY
+2025-08-08 10:25:29,975 - src.trading_bot - INFO - trading_bot.py:245 - Processed pending callback for BANKNIFTY
+2025-08-08 10:25:29,975 - src.trading_bot - INFO - trading_bot.py:112 - NEW HA CANDLE - NIFTY: O:24465.75 H:24468.25 L:24462.65 C:24465.60
+2025-08-08 10:25:29,975 - src.trading_bot - INFO - trading_bot.py:132 - STRATEGY READY - NIFTY has 15 candles - EXECUTING ANALYSIS...
+2025-08-08 10:25:29,976 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for NIFTY
+2025-08-08 10:25:29,976 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=24465.60, Candles=15
+2025-08-08 10:25:29,977 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:25:29,978 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:25:29,979 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:25:29,980 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for NIFTY
+2025-08-08 10:25:29,980 - src.trading_bot - INFO - trading_bot.py:245 - Processed pending callback for NIFTY
+2025-08-08 10:25:29,981 - src.trading_bot - INFO - trading_bot.py:112 - NEW HA CANDLE - SENSEX: O:80185.08 H:80192.58 L:80173.26 C:80184.00
+2025-08-08 10:25:29,981 - src.trading_bot - INFO - trading_bot.py:132 - STRATEGY READY - SENSEX has 15 candles - EXECUTING ANALYSIS...
+2025-08-08 10:25:29,982 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for SENSEX
+2025-08-08 10:25:29,982 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=80184.00, Candles=15
+2025-08-08 10:25:29,983 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:25:29,983 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:25:29,984 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:25:29,984 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for SENSEX
+2025-08-08 10:25:29,985 - src.trading_bot - INFO - trading_bot.py:245 - Processed pending callback for SENSEX
+2025-08-08 10:25:29,985 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for NIFTY - 15 candles
+2025-08-08 10:25:29,986 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for NIFTY
+2025-08-08 10:25:29,986 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=24465.60, Candles=15
+2025-08-08 10:25:29,987 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:25:29,987 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:25:29,988 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:25:29,989 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for NIFTY
+2025-08-08 10:25:29,989 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for BANKNIFTY - 15 candles
+2025-08-08 10:25:29,990 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for BANKNIFTY
+2025-08-08 10:25:29,991 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=55279.03, Candles=15
+2025-08-08 10:25:29,991 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:25:29,992 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:25:29,993 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:25:29,993 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for BANKNIFTY
+2025-08-08 10:25:29,994 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for SENSEX - 15 candles
+2025-08-08 10:25:29,994 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for SENSEX
+2025-08-08 10:25:29,995 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=80184.00, Candles=15
+2025-08-08 10:25:29,995 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:25:29,996 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:25:29,996 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:25:29,997 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for SENSEX
+2025-08-08 10:26:00,014 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Strategy: Active | Candles: 15 | Next: 0s
+2025-08-08 10:26:00,017 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for NIFTY - 15 candles
+2025-08-08 10:26:00,019 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for NIFTY
+2025-08-08 10:26:00,020 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=24465.60, Candles=15
+2025-08-08 10:26:00,020 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:26:00,021 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:26:00,023 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:26:00,024 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for NIFTY
+2025-08-08 10:26:00,024 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for BANKNIFTY - 15 candles
+2025-08-08 10:26:00,025 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for BANKNIFTY
+2025-08-08 10:26:00,026 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=55279.03, Candles=15
+2025-08-08 10:26:00,028 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:26:00,028 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:26:00,030 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:26:00,030 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for BANKNIFTY
+2025-08-08 10:26:00,031 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for SENSEX - 15 candles
+2025-08-08 10:26:00,031 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for SENSEX
+2025-08-08 10:26:00,032 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=80184.00, Candles=15
+2025-08-08 10:26:00,033 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:26:00,033 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:26:00,034 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:26:00,035 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for SENSEX
+2025-08-08 10:26:00,094 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - BANKNIFTY: O:55282.15 H:55299.30 L:55275.60 C:55295.25
+2025-08-08 10:26:00,096 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - BANKNIFTY: O:55279.20 H:55299.30 L:55275.60 C:55288.08
+2025-08-08 10:26:00,097 - src.websocket.websocket_manager - INFO - websocket_manager.py:524 - No event loop - storing callback for BANKNIFTY
+2025-08-08 10:26:00,256 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - NIFTY: O:24466.50 H:24470.85 L:24461.70 C:24468.60
+2025-08-08 10:26:00,257 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - NIFTY: O:24465.67 H:24470.85 L:24461.70 C:24466.91
+2025-08-08 10:26:00,257 - src.websocket.websocket_manager - INFO - websocket_manager.py:524 - No event loop - storing callback for NIFTY
+2025-08-08 10:26:00,553 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - SENSEX: O:80188.70 H:80209.66 L:80166.96 C:80204.91
+2025-08-08 10:26:00,554 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - SENSEX: O:80184.54 H:80209.66 L:80166.96 C:80192.56
+2025-08-08 10:26:00,554 - src.websocket.websocket_manager - INFO - websocket_manager.py:524 - No event loop - storing callback for SENSEX
+2025-08-08 10:26:30,045 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Strategy: Active | Candles: 16 | Next: 29s
+2025-08-08 10:26:30,046 - src.trading_bot - INFO - trading_bot.py:112 - NEW HA CANDLE - BANKNIFTY: O:55279.20 H:55299.30 L:55275.60 C:55288.08
+2025-08-08 10:26:30,046 - src.trading_bot - INFO - trading_bot.py:132 - STRATEGY READY - BANKNIFTY has 16 candles - EXECUTING ANALYSIS...
+2025-08-08 10:26:30,047 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for BANKNIFTY
+2025-08-08 10:26:30,048 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=55288.08, Candles=16
+2025-08-08 10:26:30,048 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:26:30,049 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:26:30,049 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:26:30,050 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for BANKNIFTY
+2025-08-08 10:26:30,050 - src.trading_bot - INFO - trading_bot.py:245 - Processed pending callback for BANKNIFTY
+2025-08-08 10:26:30,051 - src.trading_bot - INFO - trading_bot.py:112 - NEW HA CANDLE - NIFTY: O:24465.67 H:24470.85 L:24461.70 C:24466.91
+2025-08-08 10:26:30,052 - src.trading_bot - INFO - trading_bot.py:132 - STRATEGY READY - NIFTY has 16 candles - EXECUTING ANALYSIS...
+2025-08-08 10:26:30,052 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for NIFTY
+2025-08-08 10:26:30,054 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=24466.91, Candles=16
+2025-08-08 10:26:30,054 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:26:30,057 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:26:30,058 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:26:30,059 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for NIFTY
+2025-08-08 10:26:30,059 - src.trading_bot - INFO - trading_bot.py:245 - Processed pending callback for NIFTY
+2025-08-08 10:26:30,060 - src.trading_bot - INFO - trading_bot.py:112 - NEW HA CANDLE - SENSEX: O:80184.54 H:80209.66 L:80166.96 C:80192.56
+2025-08-08 10:26:30,060 - src.trading_bot - INFO - trading_bot.py:132 - STRATEGY READY - SENSEX has 16 candles - EXECUTING ANALYSIS...
+2025-08-08 10:26:30,061 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for SENSEX
+2025-08-08 10:26:30,061 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=80192.56, Candles=16
+2025-08-08 10:26:30,062 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:26:30,062 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:26:30,063 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:26:30,063 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for SENSEX
+2025-08-08 10:26:30,064 - src.trading_bot - INFO - trading_bot.py:245 - Processed pending callback for SENSEX
+2025-08-08 10:26:30,065 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for NIFTY - 16 candles
+2025-08-08 10:26:30,065 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for NIFTY
+2025-08-08 10:26:30,066 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=24466.91, Candles=16
+2025-08-08 10:26:30,066 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:26:30,067 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:26:30,068 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:26:30,068 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for NIFTY
+2025-08-08 10:26:30,069 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for BANKNIFTY - 16 candles
+2025-08-08 10:26:30,069 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for BANKNIFTY
+2025-08-08 10:26:30,070 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=55288.08, Candles=16
+2025-08-08 10:26:30,070 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:26:30,071 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:26:30,071 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:26:30,072 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for BANKNIFTY
+2025-08-08 10:26:30,072 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for SENSEX - 16 candles
+2025-08-08 10:26:30,073 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for SENSEX
+2025-08-08 10:26:30,077 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=80192.56, Candles=16
+2025-08-08 10:26:30,082 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:26:30,083 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:26:30,085 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:26:30,085 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for SENSEX
+2025-08-08 10:27:00,090 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Strategy: Active | Candles: 16 | Next: 0s
+2025-08-08 10:27:00,090 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for NIFTY - 16 candles
+2025-08-08 10:27:00,091 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for NIFTY
+2025-08-08 10:27:00,091 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=24466.91, Candles=16
+2025-08-08 10:27:00,092 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:27:00,092 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:27:00,093 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:27:00,093 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for NIFTY
+2025-08-08 10:27:00,093 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for BANKNIFTY - 16 candles
+2025-08-08 10:27:00,094 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for BANKNIFTY
+2025-08-08 10:27:00,094 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=55288.08, Candles=16
+2025-08-08 10:27:00,094 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:27:00,095 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:27:00,095 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:27:00,096 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for BANKNIFTY
+2025-08-08 10:27:00,096 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for SENSEX - 16 candles
+2025-08-08 10:27:00,097 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for SENSEX
+2025-08-08 10:27:00,097 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=80192.56, Candles=16
+2025-08-08 10:27:00,098 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:27:00,098 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:27:00,099 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:27:00,100 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - BANKNIFTY: O:55298.10 H:55324.10 L:55292.25 C:55320.70
+2025-08-08 10:27:00,100 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for SENSEX
+2025-08-08 10:27:00,100 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - BANKNIFTY: O:55283.64 H:55324.10 L:55283.64 C:55308.79
+2025-08-08 10:27:00,102 - src.websocket.websocket_manager - INFO - websocket_manager.py:524 - No event loop - storing callback for BANKNIFTY
+2025-08-08 10:27:00,259 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - NIFTY: O:24468.85 H:24480.75 L:24468.60 C:24480.75
+2025-08-08 10:27:00,260 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - NIFTY: O:24466.29 H:24480.75 L:24466.29 C:24474.74
+2025-08-08 10:27:00,260 - src.websocket.websocket_manager - INFO - websocket_manager.py:524 - No event loop - storing callback for NIFTY
+2025-08-08 10:27:00,708 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - SENSEX: O:80204.48 H:80228.47 L:80193.56 C:80228.31
+2025-08-08 10:27:00,709 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - SENSEX: O:80188.55 H:80228.47 L:80188.55 C:80213.71
+2025-08-08 10:27:00,709 - src.websocket.websocket_manager - INFO - websocket_manager.py:524 - No event loop - storing callback for SENSEX
+2025-08-08 10:27:30,110 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Strategy: Active | Candles: 17 | Next: 29s
+2025-08-08 10:27:30,110 - src.trading_bot - INFO - trading_bot.py:112 - NEW HA CANDLE - BANKNIFTY: O:55283.64 H:55324.10 L:55283.64 C:55308.79
+2025-08-08 10:27:30,111 - src.trading_bot - INFO - trading_bot.py:132 - STRATEGY READY - BANKNIFTY has 17 candles - EXECUTING ANALYSIS...
+2025-08-08 10:27:30,111 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for BANKNIFTY
+2025-08-08 10:27:30,112 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=55308.79, Candles=17
+2025-08-08 10:27:30,112 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:27:30,112 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:27:30,113 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:143 - ENTRY SIGNAL: BUY_CE - Price: 55308.79, Trend: 55257.79, ADX: 46.1
+2025-08-08 10:27:30,113 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:413 - Created CE order: 1 lots @ Rs.829.63
+2025-08-08 10:27:30,113 - src.trading_bot - INFO - trading_bot.py:182 -  *** ENTRY SIGNAL *** CE from enhanced_bidirectional_pine_script
+2025-08-08 10:27:30,114 - src.trading_bot - INFO - trading_bot.py:183 -     Price: Rs.829.63 | Quantity: 1
+2025-08-08 10:27:30,114 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55308.787500000006 Rs.829.63
+2025-08-08 10:27:30,116 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -82.96, Vega: 165.93, Risk: HIGH
+2025-08-08 10:27:30,116 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,222.39
+2025-08-08 10:27:31,772 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:477 - Entry order filled: BANKNIFTY_CE @ Rs.829.63
+2025-08-08 10:27:33,418 - src.trading_bot - INFO - trading_bot.py:190 - Entry order executed successfully
+2025-08-08 10:27:33,418 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for BANKNIFTY
+2025-08-08 10:27:33,418 - src.trading_bot - INFO - trading_bot.py:245 - Processed pending callback for BANKNIFTY
+2025-08-08 10:27:33,419 - src.trading_bot - INFO - trading_bot.py:112 - NEW HA CANDLE - NIFTY: O:24466.29 H:24480.75 L:24466.29 C:24474.74
+2025-08-08 10:27:33,419 - src.trading_bot - INFO - trading_bot.py:132 - STRATEGY READY - NIFTY has 17 candles - EXECUTING ANALYSIS...
+2025-08-08 10:27:33,419 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for NIFTY
+2025-08-08 10:27:33,420 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=24474.74, Candles=17
+2025-08-08 10:27:33,420 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:27:33,421 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:27:33,421 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:143 - ENTRY SIGNAL: BUY_CE - Price: 24474.74, Trend: 24455.66, ADX: 39.5
+2025-08-08 10:27:33,421 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:413 - Created CE order: 1 lots @ Rs.367.12
+2025-08-08 10:27:33,422 - src.trading_bot - INFO - trading_bot.py:182 -  *** ENTRY SIGNAL *** CE from enhanced_bidirectional_pine_script
+2025-08-08 10:27:33,422 - src.trading_bot - INFO - trading_bot.py:183 -     Price: Rs.367.12 | Quantity: 1
+2025-08-08 10:27:33,423 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24474.7375 Rs.367.12
+2025-08-08 10:27:33,423 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -36.71, Vega: 73.42, Risk: HIGH
+2025-08-08 10:27:33,424 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,534.08
+2025-08-08 10:27:35,076 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:477 - Entry order filled: NIFTY_CE @ Rs.367.12
+2025-08-08 10:27:36,670 - src.trading_bot - INFO - trading_bot.py:190 - Entry order executed successfully
+2025-08-08 10:27:36,670 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for NIFTY
+2025-08-08 10:27:36,670 - src.trading_bot - INFO - trading_bot.py:245 - Processed pending callback for NIFTY
+2025-08-08 10:27:36,671 - src.trading_bot - INFO - trading_bot.py:112 - NEW HA CANDLE - SENSEX: O:80188.55 H:80228.47 L:80188.55 C:80213.71
+2025-08-08 10:27:36,671 - src.trading_bot - INFO - trading_bot.py:132 - STRATEGY READY - SENSEX has 17 candles - EXECUTING ANALYSIS...
+2025-08-08 10:27:36,672 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for SENSEX
+2025-08-08 10:27:36,672 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=80213.71, Candles=17
+2025-08-08 10:27:36,672 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:27:36,672 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:27:36,673 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:143 - ENTRY SIGNAL: BUY_CE - Price: 80213.71, Trend: 80155.38, ADX: 38.9
+2025-08-08 10:27:36,674 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:413 - Created CE order: 1 lots @ Rs.1203.21
+2025-08-08 10:27:36,674 - src.trading_bot - INFO - trading_bot.py:182 -  *** ENTRY SIGNAL *** CE from enhanced_bidirectional_pine_script
+2025-08-08 10:27:36,674 - src.trading_bot - INFO - trading_bot.py:183 -     Price: Rs.1203.21 | Quantity: 1
+2025-08-08 10:27:36,675 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 80213.705 Rs.1203.21
+2025-08-08 10:27:36,676 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -120.32, Vega: 240.64, Risk: HIGH
+2025-08-08 10:27:36,676 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,240.42
+2025-08-08 10:27:38,295 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:477 - Entry order filled: SENSEX_CE @ Rs.1203.21
+2025-08-08 10:27:40,015 - src.trading_bot - INFO - trading_bot.py:190 - Entry order executed successfully
+2025-08-08 10:27:40,015 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for SENSEX
+2025-08-08 10:27:40,015 - src.trading_bot - INFO - trading_bot.py:245 - Processed pending callback for SENSEX
+2025-08-08 10:27:40,016 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for NIFTY - 17 candles
+2025-08-08 10:27:40,016 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for NIFTY
+2025-08-08 10:27:40,017 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=24474.74, Candles=17
+2025-08-08 10:27:40,018 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:27:40,018 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:27:40,019 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:143 - ENTRY SIGNAL: BUY_CE - Price: 24474.74, Trend: 24455.66, ADX: 39.5
+2025-08-08 10:27:40,019 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:413 - Created CE order: 1 lots @ Rs.367.12
+2025-08-08 10:27:40,019 - src.trading_bot - INFO - trading_bot.py:182 -  *** ENTRY SIGNAL *** CE from enhanced_bidirectional_pine_script
+2025-08-08 10:27:40,020 - src.trading_bot - INFO - trading_bot.py:183 -     Price: Rs.367.12 | Quantity: 1
+2025-08-08 10:27:40,020 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24474.7375 Rs.367.12
+2025-08-08 10:27:40,020 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -36.71, Vega: 73.42, Risk: HIGH
+2025-08-08 10:27:40,021 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,534.08
+2025-08-08 10:27:41,638 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:477 - Entry order filled: NIFTY_CE @ Rs.367.12
+2025-08-08 10:27:43,254 - src.trading_bot - INFO - trading_bot.py:190 - Entry order executed successfully
+2025-08-08 10:27:43,255 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for NIFTY
+2025-08-08 10:27:43,255 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for BANKNIFTY - 17 candles
+2025-08-08 10:27:43,256 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for BANKNIFTY
+2025-08-08 10:27:43,256 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=55308.79, Candles=17
+2025-08-08 10:27:43,257 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:27:43,257 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:27:43,257 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:143 - ENTRY SIGNAL: BUY_CE - Price: 55308.79, Trend: 55257.79, ADX: 46.1
+2025-08-08 10:27:43,258 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:413 - Created CE order: 1 lots @ Rs.829.63
+2025-08-08 10:27:43,258 - src.trading_bot - INFO - trading_bot.py:182 -  *** ENTRY SIGNAL *** CE from enhanced_bidirectional_pine_script
+2025-08-08 10:27:43,258 - src.trading_bot - INFO - trading_bot.py:183 -     Price: Rs.829.63 | Quantity: 1
+2025-08-08 10:27:43,259 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55308.787500000006 Rs.829.63
+2025-08-08 10:27:43,259 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -82.96, Vega: 165.93, Risk: HIGH
+2025-08-08 10:27:43,260 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,222.39
+2025-08-08 10:27:44,857 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:477 - Entry order filled: BANKNIFTY_CE @ Rs.829.63
+2025-08-08 10:27:46,448 - src.trading_bot - INFO - trading_bot.py:190 - Entry order executed successfully
+2025-08-08 10:27:46,448 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for BANKNIFTY
+2025-08-08 10:27:46,448 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for SENSEX - 17 candles
+2025-08-08 10:27:46,449 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for SENSEX
+2025-08-08 10:27:46,449 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=80213.71, Candles=17
+2025-08-08 10:27:46,450 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:27:46,450 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:27:46,450 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:143 - ENTRY SIGNAL: BUY_CE - Price: 80213.71, Trend: 80155.38, ADX: 38.9
+2025-08-08 10:27:46,451 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:413 - Created CE order: 1 lots @ Rs.1203.21
+2025-08-08 10:27:46,451 - src.trading_bot - INFO - trading_bot.py:182 -  *** ENTRY SIGNAL *** CE from enhanced_bidirectional_pine_script
+2025-08-08 10:27:46,452 - src.trading_bot - INFO - trading_bot.py:183 -     Price: Rs.1203.21 | Quantity: 1
+2025-08-08 10:27:46,452 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 80213.705 Rs.1203.21
+2025-08-08 10:27:46,453 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -120.32, Vega: 240.64, Risk: HIGH
+2025-08-08 10:27:46,453 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,240.42
+2025-08-08 10:27:48,105 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:477 - Entry order filled: SENSEX_CE @ Rs.1203.21
+2025-08-08 10:27:49,755 - src.trading_bot - INFO - trading_bot.py:190 - Entry order executed successfully
+2025-08-08 10:27:49,755 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for SENSEX
+2025-08-08 10:28:00,110 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - BANKNIFTY: O:55321.25 H:55321.80 L:55288.90 C:55297.50
+2025-08-08 10:28:00,111 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - BANKNIFTY: O:55296.21 H:55321.80 L:55288.90 C:55307.36
+2025-08-08 10:28:00,112 - src.websocket.websocket_manager - INFO - websocket_manager.py:524 - No event loop - storing callback for BANKNIFTY
+2025-08-08 10:28:00,256 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - NIFTY: O:24480.65 H:24481.25 L:24470.05 C:24470.50
+2025-08-08 10:28:00,257 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - NIFTY: O:24470.52 H:24481.25 L:24470.05 C:24475.61
+2025-08-08 10:28:00,257 - src.websocket.websocket_manager - INFO - websocket_manager.py:524 - No event loop - storing callback for NIFTY
+2025-08-08 10:28:00,859 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - SENSEX: O:80227.80 H:80234.58 L:80218.06 C:80218.06
+2025-08-08 10:28:00,860 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - SENSEX: O:80201.13 H:80234.58 L:80201.13 C:80224.62
+2025-08-08 10:28:00,860 - src.websocket.websocket_manager - INFO - websocket_manager.py:524 - No event loop - storing callback for SENSEX
+2025-08-08 10:28:19,772 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Strategy: Active | Candles: 18 | Next: 40s
+2025-08-08 10:28:19,772 - src.trading_bot - INFO - trading_bot.py:112 - NEW HA CANDLE - BANKNIFTY: O:55296.21 H:55321.80 L:55288.90 C:55307.36
+2025-08-08 10:28:19,772 - src.trading_bot - INFO - trading_bot.py:132 - STRATEGY READY - BANKNIFTY has 18 candles - EXECUTING ANALYSIS...
+2025-08-08 10:28:19,773 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for BANKNIFTY
+2025-08-08 10:28:19,773 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=55307.36, Candles=18
+2025-08-08 10:28:19,773 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:28:19,774 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:28:19,774 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:28:19,775 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for BANKNIFTY
+2025-08-08 10:28:19,775 - src.trading_bot - INFO - trading_bot.py:245 - Processed pending callback for BANKNIFTY
+2025-08-08 10:28:19,775 - src.trading_bot - INFO - trading_bot.py:112 - NEW HA CANDLE - NIFTY: O:24470.52 H:24481.25 L:24470.05 C:24475.61
+2025-08-08 10:28:19,776 - src.trading_bot - INFO - trading_bot.py:132 - STRATEGY READY - NIFTY has 18 candles - EXECUTING ANALYSIS...
+2025-08-08 10:28:19,776 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for NIFTY
+2025-08-08 10:28:19,777 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=24475.61, Candles=18
+2025-08-08 10:28:19,777 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:28:19,777 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:28:19,778 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:143 - ENTRY SIGNAL: BUY_CE - Price: 24475.61, Trend: 24457.43, ADX: 40.0
+2025-08-08 10:28:19,781 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:413 - Created CE order: 1 lots @ Rs.367.13
+2025-08-08 10:28:19,781 - src.trading_bot - INFO - trading_bot.py:182 -  *** ENTRY SIGNAL *** CE from enhanced_bidirectional_pine_script
+2025-08-08 10:28:19,782 - src.trading_bot - INFO - trading_bot.py:183 -     Price: Rs.367.13 | Quantity: 1
+2025-08-08 10:28:19,783 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24475.6125 Rs.367.13
+2025-08-08 10:28:19,784 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -36.71, Vega: 73.43, Risk: HIGH
+2025-08-08 10:28:19,784 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,535.06
+2025-08-08 10:28:21,433 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:477 - Entry order filled: NIFTY_CE @ Rs.367.13
+2025-08-08 10:28:23,072 - src.trading_bot - INFO - trading_bot.py:190 - Entry order executed successfully
+2025-08-08 10:28:23,073 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for NIFTY
+2025-08-08 10:28:23,073 - src.trading_bot - INFO - trading_bot.py:245 - Processed pending callback for NIFTY
+2025-08-08 10:28:23,074 - src.trading_bot - INFO - trading_bot.py:112 - NEW HA CANDLE - SENSEX: O:80201.13 H:80234.58 L:80201.13 C:80224.62
+2025-08-08 10:28:23,074 - src.trading_bot - INFO - trading_bot.py:132 - STRATEGY READY - SENSEX has 18 candles - EXECUTING ANALYSIS...
+2025-08-08 10:28:23,075 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for SENSEX
+2025-08-08 10:28:23,075 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=80224.62, Candles=18
+2025-08-08 10:28:23,075 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:28:23,076 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:28:23,076 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:143 - ENTRY SIGNAL: BUY_CE - Price: 80224.62, Trend: 80161.21, ADX: 40.9
+2025-08-08 10:28:23,076 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:413 - Created CE order: 1 lots @ Rs.1604.49
+2025-08-08 10:28:23,077 - src.trading_bot - INFO - trading_bot.py:182 -  *** ENTRY SIGNAL *** CE from enhanced_bidirectional_pine_script
+2025-08-08 10:28:23,077 - src.trading_bot - INFO - trading_bot.py:183 -     Price: Rs.1604.49 | Quantity: 1
+2025-08-08 10:28:23,078 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 80324.625 Rs.1604.49
+2025-08-08 10:28:23,079 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -160.45, Vega: 320.90, Risk: HIGH
+2025-08-08 10:28:23,080 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.120,336.94
+2025-08-08 10:28:24,684 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:477 - Entry order filled: SENSEX_CE @ Rs.1604.49
+2025-08-08 10:28:26,302 - src.trading_bot - INFO - trading_bot.py:190 - Entry order executed successfully
+2025-08-08 10:28:26,302 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for SENSEX
+2025-08-08 10:28:26,302 - src.trading_bot - INFO - trading_bot.py:245 - Processed pending callback for SENSEX
+2025-08-08 10:28:26,303 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for NIFTY - 18 candles
+2025-08-08 10:28:26,303 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for NIFTY
+2025-08-08 10:28:26,304 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=24475.61, Candles=18
+2025-08-08 10:28:26,304 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:28:26,304 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:28:26,305 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:143 - ENTRY SIGNAL: BUY_CE - Price: 24475.61, Trend: 24457.43, ADX: 40.0
+2025-08-08 10:28:26,306 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:413 - Created CE order: 1 lots @ Rs.367.13
+2025-08-08 10:28:26,306 - src.trading_bot - INFO - trading_bot.py:182 -  *** ENTRY SIGNAL *** CE from enhanced_bidirectional_pine_script
+2025-08-08 10:28:26,307 - src.trading_bot - INFO - trading_bot.py:183 -     Price: Rs.367.13 | Quantity: 1
+2025-08-08 10:28:26,307 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24475.6125 Rs.367.13
+2025-08-08 10:28:26,307 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -36.71, Vega: 73.43, Risk: HIGH
+2025-08-08 10:28:26,308 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,535.06
+2025-08-08 10:28:28,286 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:477 - Entry order filled: NIFTY_CE @ Rs.367.13
+2025-08-08 10:28:29,892 - src.trading_bot - INFO - trading_bot.py:190 - Entry order executed successfully
+2025-08-08 10:28:29,892 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for NIFTY
+2025-08-08 10:28:29,893 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for BANKNIFTY - 18 candles
+2025-08-08 10:28:29,893 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for BANKNIFTY
+2025-08-08 10:28:29,894 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=55307.36, Candles=18
+2025-08-08 10:28:29,894 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:28:29,894 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:28:29,895 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:28:29,895 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for BANKNIFTY
+2025-08-08 10:28:29,896 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for SENSEX - 18 candles
+2025-08-08 10:28:29,896 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for SENSEX
+2025-08-08 10:28:29,896 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=80224.62, Candles=18
+2025-08-08 10:28:29,896 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:28:29,897 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:28:29,897 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:143 - ENTRY SIGNAL: BUY_CE - Price: 80224.62, Trend: 80161.21, ADX: 40.9
+2025-08-08 10:28:29,898 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:413 - Created CE order: 1 lots @ Rs.1604.49
+2025-08-08 10:28:29,898 - src.trading_bot - INFO - trading_bot.py:182 -  *** ENTRY SIGNAL *** CE from enhanced_bidirectional_pine_script
+2025-08-08 10:28:29,899 - src.trading_bot - INFO - trading_bot.py:183 -     Price: Rs.1604.49 | Quantity: 1
+2025-08-08 10:28:29,900 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 80324.625 Rs.1604.49
+2025-08-08 10:28:29,901 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -160.45, Vega: 320.90, Risk: HIGH
+2025-08-08 10:28:29,902 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.120,336.94
+2025-08-08 10:28:31,546 - src.strategy.enhanced_pine_script_strategy - INFO - enhanced_pine_script_strategy.py:477 - Entry order filled: SENSEX_CE @ Rs.1604.49
+2025-08-08 10:28:33,136 - src.trading_bot - INFO - trading_bot.py:190 - Entry order executed successfully
+2025-08-08 10:28:33,137 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for SENSEX
+2025-08-08 10:29:00,120 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - BANKNIFTY: O:55294.20 H:55295.75 L:55271.50 C:55272.95
+2025-08-08 10:29:00,121 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - BANKNIFTY: O:55301.79 H:55301.79 L:55271.50 C:55283.60
+2025-08-08 10:29:00,122 - src.websocket.websocket_manager - INFO - websocket_manager.py:524 - No event loop - storing callback for BANKNIFTY
+2025-08-08 10:29:00,277 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - NIFTY: O:24470.05 H:24472.40 L:24466.30 C:24466.40
+2025-08-08 10:29:00,277 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - NIFTY: O:24473.06 H:24473.06 L:24466.30 C:24468.79
+2025-08-08 10:29:00,278 - src.websocket.websocket_manager - INFO - websocket_manager.py:524 - No event loop - storing callback for NIFTY
+2025-08-08 10:29:01,023 - src.websocket.websocket_manager - INFO - websocket_manager.py:470 - NEW CANDLE - SENSEX: O:80220.16 H:80230.01 L:80192.88 C:80192.88
+2025-08-08 10:29:01,024 - src.websocket.websocket_manager - INFO - websocket_manager.py:487 - HA CANDLE - SENSEX: O:80212.88 H:80230.01 L:80192.88 C:80208.98
+2025-08-08 10:29:01,024 - src.websocket.websocket_manager - INFO - websocket_manager.py:524 - No event loop - storing callback for SENSEX
+2025-08-08 10:29:03,145 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Strategy: Active | Candles: 19 | Next: 56s
+2025-08-08 10:29:03,145 - src.trading_bot - INFO - trading_bot.py:112 - NEW HA CANDLE - BANKNIFTY: O:55301.79 H:55301.79 L:55271.50 C:55283.60
+2025-08-08 10:29:03,146 - src.trading_bot - INFO - trading_bot.py:132 - STRATEGY READY - BANKNIFTY has 19 candles - EXECUTING ANALYSIS...
+2025-08-08 10:29:03,146 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for BANKNIFTY
+2025-08-08 10:29:03,147 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=55283.60, Candles=19
+2025-08-08 10:29:03,147 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:29:03,148 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:29:03,148 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:29:03,149 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for BANKNIFTY
+2025-08-08 10:29:03,149 - src.trading_bot - INFO - trading_bot.py:245 - Processed pending callback for BANKNIFTY
+2025-08-08 10:29:03,149 - src.trading_bot - INFO - trading_bot.py:112 - NEW HA CANDLE - NIFTY: O:24473.06 H:24473.06 L:24466.30 C:24468.79
+2025-08-08 10:29:03,150 - src.trading_bot - INFO - trading_bot.py:132 - STRATEGY READY - NIFTY has 19 candles - EXECUTING ANALYSIS...
+2025-08-08 10:29:03,150 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for NIFTY
+2025-08-08 10:29:03,151 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=24468.79, Candles=19
+2025-08-08 10:29:03,152 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:29:03,152 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:29:03,153 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:29:03,153 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for NIFTY
+2025-08-08 10:29:03,154 - src.trading_bot - INFO - trading_bot.py:245 - Processed pending callback for NIFTY
+2025-08-08 10:29:03,154 - src.trading_bot - INFO - trading_bot.py:112 - NEW HA CANDLE - SENSEX: O:80212.88 H:80230.01 L:80192.88 C:80208.98
+2025-08-08 10:29:03,155 - src.trading_bot - INFO - trading_bot.py:132 - STRATEGY READY - SENSEX has 19 candles - EXECUTING ANALYSIS...
+2025-08-08 10:29:03,156 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for SENSEX
+2025-08-08 10:29:03,156 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=80208.98, Candles=19
+2025-08-08 10:29:03,157 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:29:03,157 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:29:03,158 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:29:03,158 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for SENSEX
+2025-08-08 10:29:03,159 - src.trading_bot - INFO - trading_bot.py:245 - Processed pending callback for SENSEX
+2025-08-08 10:29:03,159 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for NIFTY - 19 candles
+2025-08-08 10:29:03,159 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for NIFTY
+2025-08-08 10:29:03,160 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=24468.79, Candles=19
+2025-08-08 10:29:03,161 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:29:03,162 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:29:03,163 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:29:03,163 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for NIFTY
+2025-08-08 10:29:03,164 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for BANKNIFTY - 19 candles
+2025-08-08 10:29:03,164 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for BANKNIFTY
+2025-08-08 10:29:03,165 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=55283.60, Candles=19
+2025-08-08 10:29:03,165 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:29:03,166 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:29:03,167 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:29:03,167 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for BANKNIFTY
+2025-08-08 10:29:03,168 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for SENSEX - 19 candles
+2025-08-08 10:29:03,168 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for SENSEX
+2025-08-08 10:29:03,169 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=80208.98, Candles=19
+2025-08-08 10:29:03,169 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:29:03,169 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:29:03,170 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:29:03,173 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for SENSEX
+2025-08-08 10:29:33,189 - src.trading_bot - WARNING - trading_bot.py:465 - No recent WebSocket data detected during market hours
+2025-08-08 10:29:33,190 - src.trading_bot - INFO - trading_bot.py:477 - Saving 19 HA candles for NIFTY
+2025-08-08 10:29:33,190 - src.trading_bot - INFO - trading_bot.py:477 - Saving 19 HA candles for BANKNIFTY
+2025-08-08 10:29:33,191 - src.trading_bot - INFO - trading_bot.py:477 - Saving 19 HA candles for SENSEX
+2025-08-08 10:29:33,191 - src.websocket.websocket_manager - INFO - websocket_manager.py:363 - Stopping WebSocket streams...
+2025-08-08 10:29:33,244 - src.websocket.websocket_manager - WARNING - websocket_manager.py:574 - Market data websocket connection closed - Code: None, Reason: None
+2025-08-08 10:29:33,313 - src.websocket.websocket_manager - WARNING - websocket_manager.py:596 - Portfolio data websocket connection closed - Code: None, Reason: None
+2025-08-08 10:29:33,314 - src.websocket.websocket_manager - INFO - websocket_manager.py:380 - WebSocket streams stopped
+2025-08-08 10:29:35,327 - src.websocket.websocket_manager - INFO - websocket_manager.py:277 - WebSocket callbacks configured
+2025-08-08 10:29:35,327 - src.websocket.websocket_manager - INFO - websocket_manager.py:282 - Subscribed to instruments: ['NSE_INDEX|Nifty 50', 'NSE_INDEX|Nifty Bank', 'BSE_INDEX|SENSEX']
+2025-08-08 10:29:35,328 - src.websocket.websocket_manager - INFO - websocket_manager.py:349 - Starting WebSocket streams...
+2025-08-08 10:29:35,333 - src.websocket.websocket_manager - INFO - websocket_manager.py:313 - Market data websocket connection initiated
+2025-08-08 10:29:35,340 - src.websocket.websocket_manager - INFO - websocket_manager.py:341 - Portfolio data websocket connection initiated
+2025-08-08 10:29:35,341 - src.websocket.websocket_manager - INFO - websocket_manager.py:353 - WebSocket streams started successfully
+2025-08-08 10:29:35,342 - src.trading_bot - INFO - trading_bot.py:309 - WebSocket connections established successfully
+2025-08-08 10:29:36,052 - websocket - INFO - _logging.py:89 - Websocket connected
+2025-08-08 10:29:36,052 - src.websocket.websocket_manager - INFO - websocket_manager.py:579 - Websocket connected
+2025-08-08 10:29:36,052 - src.websocket.websocket_manager - INFO - websocket_manager.py:580 - Portfolio data websocket connected
+2025-08-08 10:29:37,115 - websocket - INFO - _logging.py:89 - Websocket connected
+2025-08-08 10:29:37,116 - src.websocket.websocket_manager - INFO - websocket_manager.py:388 - Websocket connected
+2025-08-08 10:29:37,117 - src.websocket.websocket_manager - INFO - websocket_manager.py:389 - Market data websocket connected
+2025-08-08 10:29:37,805 - src.websocket.websocket_manager - INFO - websocket_manager.py:665 - Restored 19 HA candles for NIFTY
+2025-08-08 10:29:37,806 - src.websocket.websocket_manager - INFO - websocket_manager.py:665 - Restored 19 HA candles for BANKNIFTY
+2025-08-08 10:29:37,806 - src.websocket.websocket_manager - INFO - websocket_manager.py:665 - Restored 19 HA candles for SENSEX
+2025-08-08 10:29:39,682 - src.trading_bot - INFO - trading_bot.py:504 - WebSocket reconnected with candle history preserved
+2025-08-08 10:29:39,683 - src.trading_bot - INFO - trading_bot.py:562 - Market Status - NIFTY: N/A | Strategy: Active | Candles: 19 | Next: 20s
+2025-08-08 10:29:39,683 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for NIFTY - 19 candles
+2025-08-08 10:29:39,684 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for NIFTY
+2025-08-08 10:29:39,684 - src.trading_bot - INFO - trading_bot.py:164 -  Market Data: Price=24468.79, Candles=19
+2025-08-08 10:29:39,685 - src.trading_bot - INFO - trading_bot.py:168 -  Processing 1 strategies...
+2025-08-08 10:29:39,685 - src.trading_bot - INFO - trading_bot.py:176 -  Analyzing strategy 1/1: enhanced_bidirectional_pine_script
+2025-08-08 10:29:39,686 - src.trading_bot - INFO - trading_bot.py:194 - No entry signal from enhanced_bidirectional_pine_script
+2025-08-08 10:29:39,686 - src.trading_bot - INFO - trading_bot.py:229 - Strategy execution completed for NIFTY
+2025-08-08 10:29:39,687 - src.trading_bot - INFO - trading_bot.py:612 - MANUAL STRATEGY EXECUTION for BANKNIFTY - 19 candles
+2025-08-08 10:29:39,687 - src.trading_bot - INFO - trading_bot.py:145 - EXECUTING STRATEGIES for BANKNIFTY

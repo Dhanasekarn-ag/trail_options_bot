@@ -1,0 +1,744 @@
+2025-08-08 10:27:30,114 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55308.787500000006 Rs.829.63
+2025-08-08 10:27:30,116 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -82.96, Vega: 165.93, Risk: HIGH
+2025-08-08 10:27:30,116 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,222.39
+2025-08-08 10:27:33,423 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24474.7375 Rs.367.12
+2025-08-08 10:27:33,423 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -36.71, Vega: 73.42, Risk: HIGH
+2025-08-08 10:27:33,424 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,534.08
+2025-08-08 10:27:36,675 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 80213.705 Rs.1203.21
+2025-08-08 10:27:36,676 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -120.32, Vega: 240.64, Risk: HIGH
+2025-08-08 10:27:36,676 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,240.42
+2025-08-08 10:27:40,020 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24474.7375 Rs.367.12
+2025-08-08 10:27:40,020 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -36.71, Vega: 73.42, Risk: HIGH
+2025-08-08 10:27:40,021 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,534.08
+2025-08-08 10:27:43,259 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55308.787500000006 Rs.829.63
+2025-08-08 10:27:43,259 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -82.96, Vega: 165.93, Risk: HIGH
+2025-08-08 10:27:43,260 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,222.39
+2025-08-08 10:27:46,452 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 80213.705 Rs.1203.21
+2025-08-08 10:27:46,453 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -120.32, Vega: 240.64, Risk: HIGH
+2025-08-08 10:27:46,453 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,240.42
+2025-08-08 10:28:19,783 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24475.6125 Rs.367.13
+2025-08-08 10:28:19,784 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -36.71, Vega: 73.43, Risk: HIGH
+2025-08-08 10:28:19,784 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,535.06
+2025-08-08 10:28:23,078 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 80324.625 Rs.1604.49
+2025-08-08 10:28:23,079 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -160.45, Vega: 320.90, Risk: HIGH
+2025-08-08 10:28:23,080 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.120,336.94
+2025-08-08 10:28:26,307 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24475.6125 Rs.367.13
+2025-08-08 10:28:26,307 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -36.71, Vega: 73.43, Risk: HIGH
+2025-08-08 10:28:26,308 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,535.06
+2025-08-08 10:28:29,900 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 80324.625 Rs.1604.49
+2025-08-08 10:28:29,901 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -160.45, Vega: 320.90, Risk: HIGH
+2025-08-08 10:28:29,902 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.120,336.94
+2025-08-08 10:33:09,907 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55223.6125 Rs.828.35
+2025-08-08 10:33:09,907 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.84, Vega: 165.67, Risk: HIGH
+2025-08-08 10:33:09,908 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,126.56
+2025-08-08 10:33:13,496 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24444.1125 Rs.366.66
+2025-08-08 10:33:13,497 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.67, Vega: 73.33, Risk: HIGH
+2025-08-08 10:33:13,497 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,499.63
+2025-08-08 10:33:16,918 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80123.195 Rs.1201.85
+2025-08-08 10:33:16,919 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.18, Vega: 240.37, Risk: HIGH
+2025-08-08 10:33:16,919 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,138.59
+2025-08-08 10:33:20,503 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24444.1125 Rs.366.66
+2025-08-08 10:33:20,504 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.67, Vega: 73.33, Risk: HIGH
+2025-08-08 10:33:20,504 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,499.63
+2025-08-08 10:33:24,001 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55223.6125 Rs.828.35
+2025-08-08 10:33:24,003 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.84, Vega: 165.67, Risk: HIGH
+2025-08-08 10:33:24,003 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,126.56
+2025-08-08 10:33:27,490 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80123.195 Rs.1201.85
+2025-08-08 10:33:27,490 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.18, Vega: 240.37, Risk: HIGH
+2025-08-08 10:33:27,491 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,138.59
+2025-08-08 10:34:01,015 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55230.637500000004 Rs.828.46
+2025-08-08 10:34:01,016 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.85, Vega: 165.69, Risk: HIGH
+2025-08-08 10:34:01,016 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,134.47
+2025-08-08 10:34:04,551 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24446.0125 Rs.366.69
+2025-08-08 10:34:04,552 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.67, Vega: 73.34, Risk: HIGH
+2025-08-08 10:34:04,553 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,501.76
+2025-08-08 10:34:08,062 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80120.0925 Rs.1201.80
+2025-08-08 10:34:08,063 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.18, Vega: 240.36, Risk: HIGH
+2025-08-08 10:34:08,064 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,135.10
+2025-08-08 10:34:11,613 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24446.0125 Rs.366.69
+2025-08-08 10:34:11,614 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.67, Vega: 73.34, Risk: HIGH
+2025-08-08 10:34:11,615 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,501.76
+2025-08-08 10:34:14,929 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55230.637500000004 Rs.828.46
+2025-08-08 10:34:14,929 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.85, Vega: 165.69, Risk: HIGH
+2025-08-08 10:34:14,930 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,134.47
+2025-08-08 10:34:18,482 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80120.0925 Rs.1201.80
+2025-08-08 10:34:18,482 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.18, Vega: 240.36, Risk: HIGH
+2025-08-08 10:34:18,483 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,135.10
+2025-08-08 13:09:11,477 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55137.0375 Rs.827.06
+2025-08-08 13:09:11,478 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.71, Vega: 165.41, Risk: HIGH
+2025-08-08 13:09:11,479 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,029.17
+2025-08-08 13:09:14,760 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24433.725000000002 Rs.366.51
+2025-08-08 13:09:14,760 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.65, Vega: 73.30, Risk: HIGH
+2025-08-08 13:09:14,761 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,487.94
+2025-08-08 13:09:18,592 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80091.4325 Rs.1201.37
+2025-08-08 13:09:18,593 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.14, Vega: 240.27, Risk: HIGH
+2025-08-08 13:09:18,594 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,102.86
+2025-08-08 13:09:21,860 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24433.725000000002 Rs.366.51
+2025-08-08 13:09:21,861 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.65, Vega: 73.30, Risk: HIGH
+2025-08-08 13:09:21,861 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,487.94
+2025-08-08 13:09:25,132 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55137.0375 Rs.827.06
+2025-08-08 13:09:25,133 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.71, Vega: 165.41, Risk: HIGH
+2025-08-08 13:09:25,133 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,029.17
+2025-08-08 13:09:28,367 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80091.4325 Rs.1201.37
+2025-08-08 13:09:28,368 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.14, Vega: 240.27, Risk: HIGH
+2025-08-08 13:09:28,369 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,102.86
+2025-08-08 13:10:01,633 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55135.787500000006 Rs.827.04
+2025-08-08 13:10:01,633 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.70, Vega: 165.41, Risk: HIGH
+2025-08-08 13:10:01,634 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,027.76
+2025-08-08 13:10:04,942 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24436.699999999997 Rs.366.55
+2025-08-08 13:10:04,943 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.66, Vega: 73.31, Risk: HIGH
+2025-08-08 13:10:04,943 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,491.29
+2025-08-08 13:10:08,167 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80096.595 Rs.1201.45
+2025-08-08 13:10:08,168 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.14, Vega: 240.29, Risk: HIGH
+2025-08-08 13:10:08,169 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,108.67
+2025-08-08 13:10:11,420 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24436.699999999997 Rs.366.55
+2025-08-08 13:10:11,420 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.66, Vega: 73.31, Risk: HIGH
+2025-08-08 13:10:11,420 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,491.29
+2025-08-08 13:10:14,604 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55135.787500000006 Rs.827.04
+2025-08-08 13:10:14,605 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.70, Vega: 165.41, Risk: HIGH
+2025-08-08 13:10:14,605 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,027.76
+2025-08-08 13:10:17,894 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80096.595 Rs.1201.45
+2025-08-08 13:10:17,895 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.14, Vega: 240.29, Risk: HIGH
+2025-08-08 13:10:17,895 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,108.67
+2025-08-08 13:10:56,648 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24436.699999999997 Rs.366.55
+2025-08-08 13:10:56,650 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.66, Vega: 73.31, Risk: HIGH
+2025-08-08 13:10:56,651 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,491.29
+2025-08-08 13:11:00,001 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55135.787500000006 Rs.827.04
+2025-08-08 13:11:00,001 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.70, Vega: 165.41, Risk: HIGH
+2025-08-08 13:11:00,002 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,027.76
+2025-08-08 13:16:11,618 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55148.875 Rs.827.23
+2025-08-08 13:16:11,619 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -82.72, Vega: 165.45, Risk: HIGH
+2025-08-08 13:16:11,619 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,042.48
+2025-08-08 13:16:47,434 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55148.875 Rs.827.23
+2025-08-08 13:16:47,435 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -82.72, Vega: 165.45, Risk: HIGH
+2025-08-08 13:16:47,447 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,042.48
+2025-08-08 13:21:26,794 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55124.237499999996 Rs.826.86
+2025-08-08 13:21:26,794 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.69, Vega: 165.37, Risk: HIGH
+2025-08-08 13:21:26,795 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,014.77
+2025-08-08 13:22:00,211 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55124.237499999996 Rs.826.86
+2025-08-08 13:22:00,211 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.69, Vega: 165.37, Risk: HIGH
+2025-08-08 13:22:00,212 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,014.77
+2025-08-08 13:24:03,809 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24438.4125 Rs.366.58
+2025-08-08 13:24:03,810 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.66, Vega: 73.32, Risk: HIGH
+2025-08-08 13:24:03,812 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,493.21
+2025-08-08 13:24:07,157 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80093.65000000001 Rs.1201.40
+2025-08-08 13:24:07,158 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.14, Vega: 240.28, Risk: HIGH
+2025-08-08 13:24:07,159 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,105.36
+2025-08-08 13:24:10,485 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24438.4125 Rs.366.58
+2025-08-08 13:24:10,485 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.66, Vega: 73.32, Risk: HIGH
+2025-08-08 13:24:10,486 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,493.21
+2025-08-08 13:24:13,737 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80093.65000000001 Rs.1201.40
+2025-08-08 13:24:13,738 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.14, Vega: 240.28, Risk: HIGH
+2025-08-08 13:24:13,739 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,105.36
+2025-08-08 13:24:47,253 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24438.4125 Rs.366.58
+2025-08-08 13:24:47,254 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.66, Vega: 73.32, Risk: HIGH
+2025-08-08 13:24:47,255 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,493.21
+2025-08-08 13:24:50,626 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80093.65000000001 Rs.1201.40
+2025-08-08 13:24:50,629 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.14, Vega: 240.28, Risk: HIGH
+2025-08-08 13:24:50,630 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,105.36
+2025-08-08 13:29:00,769 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55086.8125 Rs.826.30
+2025-08-08 13:29:00,770 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.63, Vega: 165.26, Risk: HIGH
+2025-08-08 13:29:00,770 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.61,972.66
+2025-08-08 13:29:04,211 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80050.655 Rs.1200.76
+2025-08-08 13:29:04,213 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.08, Vega: 240.15, Risk: HIGH
+2025-08-08 13:29:04,214 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,056.99
+2025-08-08 13:29:07,624 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55086.8125 Rs.826.30
+2025-08-08 13:29:07,625 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.63, Vega: 165.26, Risk: HIGH
+2025-08-08 13:29:07,625 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.61,972.66
+2025-08-08 13:29:10,905 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80050.655 Rs.1200.76
+2025-08-08 13:29:10,905 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.08, Vega: 240.15, Risk: HIGH
+2025-08-08 13:29:10,906 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,056.99
+2025-08-08 13:29:44,196 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55086.8125 Rs.826.30
+2025-08-08 13:29:44,196 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.63, Vega: 165.26, Risk: HIGH
+2025-08-08 13:29:44,197 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.61,972.66
+2025-08-08 13:29:47,479 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80050.655 Rs.1200.76
+2025-08-08 13:29:47,480 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.08, Vega: 240.15, Risk: HIGH
+2025-08-08 13:29:47,480 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,056.99
+2025-08-08 13:30:20,840 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80049.2225 Rs.1200.74
+2025-08-08 13:30:20,841 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.07, Vega: 240.15, Risk: HIGH
+2025-08-08 13:30:20,842 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,055.38
+2025-08-08 13:30:24,133 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55080.5625 Rs.826.21
+2025-08-08 13:30:24,133 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.62, Vega: 165.24, Risk: HIGH
+2025-08-08 13:30:24,135 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.61,965.63
+2025-08-08 13:30:27,422 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24424.0875 Rs.366.36
+2025-08-08 13:30:27,424 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.64, Vega: 73.27, Risk: HIGH
+2025-08-08 13:30:27,424 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,477.10
+2025-08-08 13:30:30,697 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24424.0875 Rs.366.36
+2025-08-08 13:30:30,698 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.64, Vega: 73.27, Risk: HIGH
+2025-08-08 13:30:30,699 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,477.10
+2025-08-08 13:30:34,064 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55080.5625 Rs.826.21
+2025-08-08 13:30:34,064 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.62, Vega: 165.24, Risk: HIGH
+2025-08-08 13:30:34,064 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.61,965.63
+2025-08-08 13:30:37,458 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80049.2225 Rs.1200.74
+2025-08-08 13:30:37,461 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.07, Vega: 240.15, Risk: HIGH
+2025-08-08 13:30:37,461 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,055.38
+2025-08-08 13:36:16,951 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55156.15 Rs.827.34
+2025-08-08 13:36:16,952 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -82.73, Vega: 165.47, Risk: HIGH
+2025-08-08 13:36:16,952 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,050.67
+2025-08-08 13:36:20,526 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55156.15 Rs.827.34
+2025-08-08 13:36:20,527 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -82.73, Vega: 165.47, Risk: HIGH
+2025-08-08 13:36:20,529 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,050.67
+2025-08-08 13:40:01,070 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24456.875 Rs.366.85
+2025-08-08 13:40:01,070 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -36.69, Vega: 73.37, Risk: HIGH
+2025-08-08 13:40:01,072 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,513.98
+2025-08-08 13:40:04,336 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55174.925 Rs.827.62
+2025-08-08 13:40:04,337 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -82.76, Vega: 165.52, Risk: HIGH
+2025-08-08 13:40:04,337 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,071.79
+2025-08-08 13:40:07,585 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 80150.43250000001 Rs.1202.26
+2025-08-08 13:40:07,586 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -120.23, Vega: 240.45, Risk: HIGH
+2025-08-08 13:40:07,587 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,169.24
+2025-08-08 13:40:10,885 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24456.875 Rs.366.85
+2025-08-08 13:40:10,885 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -36.69, Vega: 73.37, Risk: HIGH
+2025-08-08 13:40:10,886 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,513.98
+2025-08-08 13:40:14,175 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55174.925 Rs.827.62
+2025-08-08 13:40:14,175 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -82.76, Vega: 165.52, Risk: HIGH
+2025-08-08 13:40:14,175 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,071.79
+2025-08-08 13:40:17,522 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 80150.43250000001 Rs.1202.26
+2025-08-08 13:40:17,522 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -120.23, Vega: 240.45, Risk: HIGH
+2025-08-08 13:40:17,523 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,169.24
+2025-08-08 13:40:50,982 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24456.875 Rs.366.85
+2025-08-08 13:40:50,982 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -36.69, Vega: 73.37, Risk: HIGH
+2025-08-08 13:40:50,983 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,513.98
+2025-08-08 13:40:54,674 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55174.925 Rs.827.62
+2025-08-08 13:40:54,674 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -82.76, Vega: 165.52, Risk: HIGH
+2025-08-08 13:40:54,675 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,071.79
+2025-08-08 13:40:57,855 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 80150.43250000001 Rs.1202.26
+2025-08-08 13:40:57,856 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -120.23, Vega: 240.45, Risk: HIGH
+2025-08-08 13:40:57,856 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,169.24
+2025-08-08 13:44:06,703 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 80167.24250000001 Rs.1202.51
+2025-08-08 13:44:06,704 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -120.25, Vega: 240.50, Risk: HIGH
+2025-08-08 13:44:06,705 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,188.15
+2025-08-08 13:44:10,288 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 80167.24250000001 Rs.1202.51
+2025-08-08 13:44:10,289 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -120.25, Vega: 240.50, Risk: HIGH
+2025-08-08 13:44:10,289 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,188.15
+2025-08-08 13:44:43,702 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 80167.24250000001 Rs.1202.51
+2025-08-08 13:44:43,702 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -120.25, Vega: 240.50, Risk: HIGH
+2025-08-08 13:44:43,703 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,188.15
+2025-08-08 13:47:22,958 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24447.3125 Rs.366.71
+2025-08-08 13:47:22,959 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.67, Vega: 73.34, Risk: HIGH
+2025-08-08 13:47:22,959 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,503.23
+2025-08-08 13:47:26,293 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80130.155 Rs.1201.95
+2025-08-08 13:47:26,294 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.20, Vega: 240.39, Risk: HIGH
+2025-08-08 13:47:26,294 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,146.42
+2025-08-08 13:47:59,595 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24447.3125 Rs.366.71
+2025-08-08 13:47:59,595 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.67, Vega: 73.34, Risk: HIGH
+2025-08-08 13:47:59,596 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,503.23
+2025-08-08 13:49:07,660 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80084.26 Rs.1201.26
+2025-08-08 13:49:07,662 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.13, Vega: 240.25, Risk: HIGH
+2025-08-08 13:49:07,663 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,094.79
+2025-08-08 13:49:11,735 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80084.26 Rs.1201.26
+2025-08-08 13:49:11,736 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.13, Vega: 240.25, Risk: HIGH
+2025-08-08 13:49:11,736 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,094.79
+2025-08-08 13:49:46,696 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80084.26 Rs.1201.26
+2025-08-08 13:49:46,697 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.13, Vega: 240.25, Risk: HIGH
+2025-08-08 13:49:46,698 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,094.79
+2025-08-08 13:50:19,959 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24431.35 Rs.366.47
+2025-08-08 13:50:19,960 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.65, Vega: 73.29, Risk: HIGH
+2025-08-08 13:50:19,961 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,485.27
+2025-08-08 13:50:23,494 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55132.675 Rs.826.99
+2025-08-08 13:50:23,494 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.70, Vega: 165.40, Risk: HIGH
+2025-08-08 13:50:23,497 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,024.26
+2025-08-08 13:50:26,804 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79975.43000000001 Rs.1601.51
+2025-08-08 13:50:26,806 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -160.15, Vega: 320.30, Risk: HIGH
+2025-08-08 13:50:26,806 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.120,113.15
+2025-08-08 13:50:30,239 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24431.35 Rs.366.47
+2025-08-08 13:50:30,240 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.65, Vega: 73.29, Risk: HIGH
+2025-08-08 13:50:30,240 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,485.27
+2025-08-08 13:50:33,518 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55132.675 Rs.826.99
+2025-08-08 13:50:33,519 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.70, Vega: 165.40, Risk: HIGH
+2025-08-08 13:50:33,519 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,024.26
+2025-08-08 13:50:36,722 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79975.43000000001 Rs.1601.51
+2025-08-08 13:50:36,723 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -160.15, Vega: 320.30, Risk: HIGH
+2025-08-08 13:50:36,723 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.120,113.15
+2025-08-08 13:51:10,053 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24429.75 Rs.366.45
+2025-08-08 13:51:10,053 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.64, Vega: 73.29, Risk: HIGH
+2025-08-08 13:51:10,054 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,483.47
+2025-08-08 13:51:13,581 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55129.925 Rs.826.95
+2025-08-08 13:51:13,582 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.69, Vega: 165.39, Risk: HIGH
+2025-08-08 13:51:13,583 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,021.17
+2025-08-08 13:51:16,899 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79970.7225 Rs.1601.41
+2025-08-08 13:51:16,899 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -160.14, Vega: 320.28, Risk: HIGH
+2025-08-08 13:51:16,900 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.120,106.08
+2025-08-08 13:51:20,165 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24429.75 Rs.366.45
+2025-08-08 13:51:20,166 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.64, Vega: 73.29, Risk: HIGH
+2025-08-08 13:51:20,167 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,483.47
+2025-08-08 13:51:23,407 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55129.925 Rs.826.95
+2025-08-08 13:51:23,408 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.69, Vega: 165.39, Risk: HIGH
+2025-08-08 13:51:23,409 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,021.17
+2025-08-08 13:51:26,720 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79970.7225 Rs.1601.41
+2025-08-08 13:51:26,721 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -160.14, Vega: 320.28, Risk: HIGH
+2025-08-08 13:51:26,722 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.120,106.08
+2025-08-08 13:51:59,961 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24429.75 Rs.366.45
+2025-08-08 13:51:59,961 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.64, Vega: 73.29, Risk: HIGH
+2025-08-08 13:51:59,962 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,483.47
+2025-08-08 13:56:09,100 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24427.0625 Rs.366.41
+2025-08-08 13:56:09,101 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.64, Vega: 73.28, Risk: HIGH
+2025-08-08 13:56:09,102 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,480.45
+2025-08-08 13:56:12,620 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24427.0625 Rs.366.41
+2025-08-08 13:56:12,621 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.64, Vega: 73.28, Risk: HIGH
+2025-08-08 13:56:12,622 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,480.45
+2025-08-08 13:56:46,049 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24427.0625 Rs.366.41
+2025-08-08 13:56:46,050 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.64, Vega: 73.28, Risk: HIGH
+2025-08-08 13:56:46,050 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,480.45
+2025-08-08 13:57:19,689 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80068.5275 Rs.1201.03
+2025-08-08 13:57:19,689 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.10, Vega: 240.21, Risk: HIGH
+2025-08-08 13:57:19,690 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,077.09
+2025-08-08 13:57:23,158 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80068.5275 Rs.1201.03
+2025-08-08 13:57:23,159 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.10, Vega: 240.21, Risk: HIGH
+2025-08-08 13:57:23,160 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,077.09
+2025-08-08 14:00:02,315 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80055.1575 Rs.1200.83
+2025-08-08 14:00:02,317 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.08, Vega: 240.17, Risk: HIGH
+2025-08-08 14:00:02,320 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,062.05
+2025-08-08 14:00:05,671 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80055.1575 Rs.1200.83
+2025-08-08 14:00:05,672 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.08, Vega: 240.17, Risk: HIGH
+2025-08-08 14:00:05,672 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,062.05
+2025-08-08 14:00:38,967 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80055.1575 Rs.1200.83
+2025-08-08 14:00:38,967 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.08, Vega: 240.17, Risk: HIGH
+2025-08-08 14:00:38,968 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,062.05
+2025-08-08 14:01:12,935 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24432.362500000003 Rs.366.49
+2025-08-08 14:01:12,935 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -36.65, Vega: 73.30, Risk: HIGH
+2025-08-08 14:01:12,936 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,486.41
+2025-08-08 14:01:16,246 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24432.362500000003 Rs.366.49
+2025-08-08 14:01:16,246 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -36.65, Vega: 73.30, Risk: HIGH
+2025-08-08 14:01:16,247 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,486.41
+2025-08-08 14:01:49,669 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24432.362500000003 Rs.366.49
+2025-08-08 14:01:49,670 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -36.65, Vega: 73.30, Risk: HIGH
+2025-08-08 14:01:49,670 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,486.41
+2025-08-08 14:02:23,078 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55274.237499999996 Rs.1103.48
+2025-08-08 14:02:23,078 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -110.35, Vega: 220.70, Risk: HIGH
+2025-08-08 14:02:23,079 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.82,761.36
+2025-08-08 14:02:26,476 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24541.9 Rs.488.84
+2025-08-08 14:02:26,477 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -48.88, Vega: 97.77, Risk: HIGH
+2025-08-08 14:02:26,477 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.36,662.85
+2025-08-08 14:02:29,720 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 80207.775 Rs.1602.16
+2025-08-08 14:02:29,721 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -160.22, Vega: 320.43, Risk: HIGH
+2025-08-08 14:02:29,722 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.120,161.66
+2025-08-08 14:02:33,109 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24541.9 Rs.488.84
+2025-08-08 14:02:33,110 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -48.88, Vega: 97.77, Risk: HIGH
+2025-08-08 14:02:33,110 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.36,662.85
+2025-08-08 14:02:36,320 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55274.237499999996 Rs.1103.48
+2025-08-08 14:02:36,320 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -110.35, Vega: 220.70, Risk: HIGH
+2025-08-08 14:02:36,321 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.82,761.36
+2025-08-08 14:02:39,570 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 80207.775 Rs.1602.16
+2025-08-08 14:02:39,571 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -160.22, Vega: 320.43, Risk: HIGH
+2025-08-08 14:02:39,572 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.120,161.66
+2025-08-08 14:03:18,352 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24442.574999999997 Rs.366.64
+2025-08-08 14:03:18,353 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -36.66, Vega: 73.33, Risk: HIGH
+2025-08-08 14:03:18,354 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,497.90
+2025-08-08 14:03:21,770 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55180.6875 Rs.827.71
+2025-08-08 14:03:21,770 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -82.77, Vega: 165.54, Risk: HIGH
+2025-08-08 14:03:21,771 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,078.27
+2025-08-08 14:03:25,035 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 80122.89 Rs.1201.84
+2025-08-08 14:03:25,036 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -120.18, Vega: 240.37, Risk: HIGH
+2025-08-08 14:03:25,037 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,138.25
+2025-08-08 14:03:58,288 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24442.574999999997 Rs.366.64
+2025-08-08 14:03:58,289 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -36.66, Vega: 73.33, Risk: HIGH
+2025-08-08 14:03:58,291 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,497.90
+2025-08-08 14:12:07,636 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80067.26999999999 Rs.1201.01
+2025-08-08 14:12:07,637 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.10, Vega: 240.20, Risk: HIGH
+2025-08-08 14:12:07,638 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,075.68
+2025-08-08 14:12:11,018 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80067.26999999999 Rs.1201.01
+2025-08-08 14:12:11,018 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.10, Vega: 240.20, Risk: HIGH
+2025-08-08 14:12:11,019 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,075.68
+2025-08-08 14:12:44,293 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80067.26999999999 Rs.1201.01
+2025-08-08 14:12:44,294 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.10, Vega: 240.20, Risk: HIGH
+2025-08-08 14:12:44,295 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,075.68
+2025-08-08 14:13:17,723 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24406.9375 Rs.366.10
+2025-08-08 14:13:17,724 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.61, Vega: 73.22, Risk: HIGH
+2025-08-08 14:13:17,725 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,457.80
+2025-08-08 14:13:20,975 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80023.94499999999 Rs.1200.36
+2025-08-08 14:13:20,975 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.04, Vega: 240.07, Risk: HIGH
+2025-08-08 14:13:20,976 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,026.94
+2025-08-08 14:13:24,267 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24406.9375 Rs.366.10
+2025-08-08 14:13:24,268 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.61, Vega: 73.22, Risk: HIGH
+2025-08-08 14:13:24,268 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,457.80
+2025-08-08 14:13:27,498 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80023.94499999999 Rs.1200.36
+2025-08-08 14:13:27,499 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.04, Vega: 240.07, Risk: HIGH
+2025-08-08 14:13:27,499 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,026.94
+2025-08-08 14:14:06,247 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24400.350000000002 Rs.366.01
+2025-08-08 14:14:06,248 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.60, Vega: 73.20, Risk: HIGH
+2025-08-08 14:14:06,251 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,450.39
+2025-08-08 14:14:09,630 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79997.015 Rs.1199.96
+2025-08-08 14:14:09,631 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.00, Vega: 239.99, Risk: HIGH
+2025-08-08 14:14:09,632 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.89,996.64
+2025-08-08 14:14:42,862 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24400.350000000002 Rs.366.01
+2025-08-08 14:14:42,863 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.60, Vega: 73.20, Risk: HIGH
+2025-08-08 14:14:42,865 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,450.39
+2025-08-08 14:14:46,123 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79997.015 Rs.1199.96
+2025-08-08 14:14:46,123 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.00, Vega: 239.99, Risk: HIGH
+2025-08-08 14:14:46,124 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.89,996.64
+2025-08-08 14:18:19,724 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55252.55 Rs.1103.05
+2025-08-08 14:18:19,724 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -110.31, Vega: 220.61, Risk: HIGH
+2025-08-08 14:18:19,725 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.82,728.83
+2025-08-08 14:18:23,208 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24526.550000000003 Rs.488.53
+2025-08-08 14:18:23,209 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -48.85, Vega: 97.71, Risk: HIGH
+2025-08-08 14:18:23,210 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.36,639.83
+2025-08-08 14:18:26,499 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 80168.32250000001 Rs.1601.37
+2025-08-08 14:18:26,500 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -160.14, Vega: 320.27, Risk: HIGH
+2025-08-08 14:18:26,500 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.120,102.48
+2025-08-08 14:18:29,794 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24526.550000000003 Rs.488.53
+2025-08-08 14:18:29,795 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -48.85, Vega: 97.71, Risk: HIGH
+2025-08-08 14:18:29,795 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.36,639.83
+2025-08-08 14:18:33,077 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55252.55 Rs.1103.05
+2025-08-08 14:18:33,078 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -110.31, Vega: 220.61, Risk: HIGH
+2025-08-08 14:18:33,078 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.82,728.83
+2025-08-08 14:18:36,484 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 80168.32250000001 Rs.1601.37
+2025-08-08 14:18:36,485 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -160.14, Vega: 320.27, Risk: HIGH
+2025-08-08 14:18:36,485 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.120,102.48
+2025-08-08 14:19:15,275 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24530.137499999997 Rs.488.60
+2025-08-08 14:19:15,276 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -48.86, Vega: 97.72, Risk: HIGH
+2025-08-08 14:19:15,276 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.36,645.21
+2025-08-08 14:19:19,000 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 80079.65 Rs.1201.19
+2025-08-08 14:19:19,001 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -120.12, Vega: 240.24, Risk: HIGH
+2025-08-08 14:19:19,002 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,089.61
+2025-08-08 14:19:52,298 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24530.137499999997 Rs.488.60
+2025-08-08 14:19:52,299 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -48.86, Vega: 97.72, Risk: HIGH
+2025-08-08 14:19:52,299 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.36,645.21
+2025-08-08 14:19:55,626 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 80079.65 Rs.1201.19
+2025-08-08 14:19:55,626 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -120.12, Vega: 240.24, Risk: HIGH
+2025-08-08 14:19:55,627 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,089.61
+2025-08-08 14:26:04,596 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80050.56 Rs.1200.76
+2025-08-08 14:26:04,596 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.08, Vega: 240.15, Risk: HIGH
+2025-08-08 14:26:04,598 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,056.88
+2025-08-08 14:26:07,998 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80050.56 Rs.1200.76
+2025-08-08 14:26:07,999 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.08, Vega: 240.15, Risk: HIGH
+2025-08-08 14:26:07,999 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,056.88
+2025-08-08 14:26:41,295 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80050.56 Rs.1200.76
+2025-08-08 14:26:41,295 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.08, Vega: 240.15, Risk: HIGH
+2025-08-08 14:26:41,296 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,056.88
+2025-08-08 14:28:14,848 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24407.35 Rs.366.11
+2025-08-08 14:28:14,849 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.61, Vega: 73.22, Risk: HIGH
+2025-08-08 14:28:14,849 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,458.27
+2025-08-08 14:28:18,110 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24407.35 Rs.366.11
+2025-08-08 14:28:18,111 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.61, Vega: 73.22, Risk: HIGH
+2025-08-08 14:28:18,112 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,458.27
+2025-08-08 14:28:51,361 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24407.35 Rs.366.11
+2025-08-08 14:28:51,362 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.61, Vega: 73.22, Risk: HIGH
+2025-08-08 14:28:51,363 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,458.27
+2025-08-08 14:29:24,622 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24302.0125 Rs.488.04
+2025-08-08 14:29:24,623 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -48.80, Vega: 97.61, Risk: HIGH
+2025-08-08 14:29:24,623 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.36,603.02
+2025-08-08 14:29:28,022 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 54995.2 Rs.1101.90
+2025-08-08 14:29:28,023 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -110.19, Vega: 220.38, Risk: HIGH
+2025-08-08 14:29:28,024 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.82,642.80
+2025-08-08 14:29:31,318 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79899.2025 Rs.1599.98
+2025-08-08 14:29:31,319 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -160.00, Vega: 320.00, Risk: HIGH
+2025-08-08 14:29:31,320 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.119,998.80
+2025-08-08 14:29:34,718 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24302.0125 Rs.488.04
+2025-08-08 14:29:34,718 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -48.80, Vega: 97.61, Risk: HIGH
+2025-08-08 14:29:34,719 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.36,603.02
+2025-08-08 14:29:38,204 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 54995.2 Rs.1101.90
+2025-08-08 14:29:38,204 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -110.19, Vega: 220.38, Risk: HIGH
+2025-08-08 14:29:38,205 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.82,642.80
+2025-08-08 14:29:41,494 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79899.2025 Rs.1599.98
+2025-08-08 14:29:41,495 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -160.00, Vega: 320.00, Risk: HIGH
+2025-08-08 14:29:41,495 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.119,998.80
+2025-08-08 14:30:20,508 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24399.475 Rs.365.99
+2025-08-08 14:30:20,508 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.60, Vega: 73.20, Risk: HIGH
+2025-08-08 14:30:20,509 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,449.41
+2025-08-08 14:30:23,817 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79988.77 Rs.1199.83
+2025-08-08 14:30:23,818 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -119.98, Vega: 239.97, Risk: HIGH
+2025-08-08 14:30:23,819 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.89,987.37
+2025-08-08 14:30:57,062 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24399.475 Rs.365.99
+2025-08-08 14:30:57,062 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.60, Vega: 73.20, Risk: HIGH
+2025-08-08 14:30:57,063 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,449.41
+2025-08-08 14:31:00,360 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79988.77 Rs.1199.83
+2025-08-08 14:31:00,360 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -119.98, Vega: 239.97, Risk: HIGH
+2025-08-08 14:31:00,361 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.89,987.37
+2025-08-08 14:35:03,875 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55122.337499999994 Rs.826.84
+2025-08-08 14:35:03,876 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -82.68, Vega: 165.37, Risk: HIGH
+2025-08-08 14:35:03,877 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,012.63
+2025-08-08 14:35:07,303 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55122.337499999994 Rs.826.84
+2025-08-08 14:35:07,304 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -82.68, Vega: 165.37, Risk: HIGH
+2025-08-08 14:35:07,305 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,012.63
+2025-08-08 14:35:46,154 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55122.337499999994 Rs.826.84
+2025-08-08 14:35:46,155 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -82.68, Vega: 165.37, Risk: HIGH
+2025-08-08 14:35:46,156 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,012.63
+2025-08-08 14:38:19,503 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24406.9625 Rs.366.10
+2025-08-08 14:38:19,504 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.61, Vega: 73.22, Risk: HIGH
+2025-08-08 14:38:19,505 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,457.83
+2025-08-08 14:38:22,876 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24406.9625 Rs.366.10
+2025-08-08 14:38:22,877 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.61, Vega: 73.22, Risk: HIGH
+2025-08-08 14:38:22,877 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,457.83
+2025-08-08 14:38:56,091 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24406.9625 Rs.366.10
+2025-08-08 14:38:56,092 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.61, Vega: 73.22, Risk: HIGH
+2025-08-08 14:38:56,092 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,457.83
+2025-08-08 14:43:05,514 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55172.325 Rs.827.58
+2025-08-08 14:43:05,515 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -82.76, Vega: 165.52, Risk: HIGH
+2025-08-08 14:43:05,516 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,068.87
+2025-08-08 14:43:08,842 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55172.325 Rs.827.58
+2025-08-08 14:43:08,843 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -82.76, Vega: 165.52, Risk: HIGH
+2025-08-08 14:43:08,844 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,068.87
+2025-08-08 14:43:42,152 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55172.325 Rs.827.58
+2025-08-08 14:43:42,153 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -82.76, Vega: 165.52, Risk: HIGH
+2025-08-08 14:43:42,153 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,068.87
+2025-08-08 14:44:15,450 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55175.462499999994 Rs.827.63
+2025-08-08 14:44:15,455 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -82.76, Vega: 165.53, Risk: HIGH
+2025-08-08 14:44:15,457 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,072.40
+2025-08-08 14:44:19,269 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55175.462499999994 Rs.827.63
+2025-08-08 14:44:19,270 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -82.76, Vega: 165.53, Risk: HIGH
+2025-08-08 14:44:19,271 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,072.40
+2025-08-08 14:44:52,883 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 55175.462499999994 Rs.827.63
+2025-08-08 14:44:52,884 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -82.76, Vega: 165.53, Risk: HIGH
+2025-08-08 14:44:52,885 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,072.40
+2025-08-08 14:48:01,938 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55146.625 Rs.827.20
+2025-08-08 14:48:01,938 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.72, Vega: 165.44, Risk: HIGH
+2025-08-08 14:48:01,939 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,039.95
+2025-08-08 14:48:05,256 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80021.195 Rs.1200.32
+2025-08-08 14:48:05,256 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.03, Vega: 240.06, Risk: HIGH
+2025-08-08 14:48:05,257 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,023.84
+2025-08-08 14:48:08,484 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55146.625 Rs.827.20
+2025-08-08 14:48:08,485 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.72, Vega: 165.44, Risk: HIGH
+2025-08-08 14:48:08,486 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,039.95
+2025-08-08 14:48:11,716 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80021.195 Rs.1200.32
+2025-08-08 14:48:11,717 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.03, Vega: 240.06, Risk: HIGH
+2025-08-08 14:48:11,719 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,023.84
+2025-08-08 14:48:45,062 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55146.625 Rs.827.20
+2025-08-08 14:48:45,063 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.72, Vega: 165.44, Risk: HIGH
+2025-08-08 14:48:45,063 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,039.95
+2025-08-08 14:48:48,361 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80021.195 Rs.1200.32
+2025-08-08 14:48:48,361 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.03, Vega: 240.06, Risk: HIGH
+2025-08-08 14:48:48,362 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,023.84
+2025-08-08 14:49:21,611 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55138.7625 Rs.827.08
+2025-08-08 14:49:21,612 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.71, Vega: 165.42, Risk: HIGH
+2025-08-08 14:49:21,613 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,031.11
+2025-08-08 14:49:24,977 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80018.80249999999 Rs.1200.28
+2025-08-08 14:49:24,978 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.03, Vega: 240.06, Risk: HIGH
+2025-08-08 14:49:24,979 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,021.15
+2025-08-08 14:49:28,204 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55138.7625 Rs.827.08
+2025-08-08 14:49:28,205 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.71, Vega: 165.42, Risk: HIGH
+2025-08-08 14:49:28,206 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.62,031.11
+2025-08-08 14:49:31,565 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 80018.80249999999 Rs.1200.28
+2025-08-08 14:49:31,566 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -120.03, Vega: 240.06, Risk: HIGH
+2025-08-08 14:49:31,567 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.90,021.15
+2025-08-08 14:59:26,575 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24403.8375 Rs.366.06
+2025-08-08 14:59:26,575 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.61, Vega: 73.21, Risk: HIGH
+2025-08-08 14:59:26,576 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,454.32
+2025-08-08 14:59:29,934 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24403.8375 Rs.366.06
+2025-08-08 14:59:29,935 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.61, Vega: 73.21, Risk: HIGH
+2025-08-08 14:59:29,936 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,454.32
+2025-08-08 15:02:08,899 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24396.3125 Rs.365.94
+2025-08-08 15:02:08,899 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.59, Vega: 73.19, Risk: HIGH
+2025-08-08 15:02:08,900 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,445.85
+2025-08-08 15:02:12,205 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55105.575 Rs.826.58
+2025-08-08 15:02:12,206 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.66, Vega: 165.32, Risk: HIGH
+2025-08-08 15:02:12,207 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.61,993.77
+2025-08-08 15:02:15,483 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79987.725 Rs.1199.82
+2025-08-08 15:02:15,484 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -119.98, Vega: 239.96, Risk: HIGH
+2025-08-08 15:02:15,485 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.89,986.19
+2025-08-08 15:02:49,278 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24396.3125 Rs.365.94
+2025-08-08 15:02:49,279 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.59, Vega: 73.19, Risk: HIGH
+2025-08-08 15:02:49,279 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,445.85
+2025-08-08 15:02:52,810 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55105.575 Rs.826.58
+2025-08-08 15:02:52,811 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.66, Vega: 165.32, Risk: HIGH
+2025-08-08 15:02:52,811 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.61,993.77
+2025-08-08 15:02:56,406 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79987.725 Rs.1199.82
+2025-08-08 15:02:56,407 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -119.98, Vega: 239.96, Risk: HIGH
+2025-08-08 15:02:56,408 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.89,986.19
+2025-08-08 15:04:30,009 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24388.25 Rs.365.82
+2025-08-08 15:04:30,009 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.58, Vega: 73.16, Risk: HIGH
+2025-08-08 15:04:30,010 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,436.78
+2025-08-08 15:04:33,271 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79956.485 Rs.1199.35
+2025-08-08 15:04:33,272 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -119.93, Vega: 239.87, Risk: HIGH
+2025-08-08 15:04:33,272 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.89,951.05
+2025-08-08 15:04:37,080 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24388.25 Rs.365.82
+2025-08-08 15:04:37,080 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.58, Vega: 73.16, Risk: HIGH
+2025-08-08 15:04:37,081 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,436.78
+2025-08-08 15:04:40,728 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79956.485 Rs.1199.35
+2025-08-08 15:04:40,729 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -119.93, Vega: 239.87, Risk: HIGH
+2025-08-08 15:04:40,729 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.89,951.05
+2025-08-08 15:09:20,608 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79957.06 Rs.1199.36
+2025-08-08 15:09:20,608 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -119.94, Vega: 239.87, Risk: HIGH
+2025-08-08 15:09:20,609 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.89,951.69
+2025-08-08 15:09:24,008 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24390.65 Rs.365.86
+2025-08-08 15:09:24,008 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.59, Vega: 73.17, Risk: HIGH
+2025-08-08 15:09:24,009 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,439.48
+2025-08-08 15:09:27,311 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24390.65 Rs.365.86
+2025-08-08 15:09:27,312 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.59, Vega: 73.17, Risk: HIGH
+2025-08-08 15:09:27,312 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,439.48
+2025-08-08 15:09:30,637 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79957.06 Rs.1199.36
+2025-08-08 15:09:30,638 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -119.94, Vega: 239.87, Risk: HIGH
+2025-08-08 15:09:30,638 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.89,951.69
+2025-08-08 15:10:03,880 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55060.275 Rs.825.90
+2025-08-08 15:10:03,881 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.59, Vega: 165.18, Risk: HIGH
+2025-08-08 15:10:03,881 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.61,942.81
+2025-08-08 15:10:07,116 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24383.137499999997 Rs.365.75
+2025-08-08 15:10:07,117 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.57, Vega: 73.15, Risk: HIGH
+2025-08-08 15:10:07,117 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,431.03
+2025-08-08 15:10:10,560 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79934.54 Rs.1199.02
+2025-08-08 15:10:10,561 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -119.90, Vega: 239.80, Risk: HIGH
+2025-08-08 15:10:10,561 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.89,926.36
+2025-08-08 15:10:13,772 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24383.137499999997 Rs.365.75
+2025-08-08 15:10:13,773 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.57, Vega: 73.15, Risk: HIGH
+2025-08-08 15:10:13,774 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,431.03
+2025-08-08 15:10:17,036 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55060.275 Rs.825.90
+2025-08-08 15:10:17,037 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.59, Vega: 165.18, Risk: HIGH
+2025-08-08 15:10:17,037 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.61,942.81
+2025-08-08 15:10:20,551 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79934.54 Rs.1199.02
+2025-08-08 15:10:20,552 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -119.90, Vega: 239.80, Risk: HIGH
+2025-08-08 15:10:20,552 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.89,926.36
+2025-08-08 15:10:53,984 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24383.137499999997 Rs.365.75
+2025-08-08 15:10:53,985 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.57, Vega: 73.15, Risk: HIGH
+2025-08-08 15:10:53,986 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,431.03
+2025-08-08 15:10:57,374 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55060.275 Rs.825.90
+2025-08-08 15:10:57,374 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.59, Vega: 165.18, Risk: HIGH
+2025-08-08 15:10:57,375 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.61,942.81
+2025-08-08 15:11:00,612 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79819.48 Rs.1598.39
+2025-08-08 15:11:00,612 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -159.84, Vega: 319.68, Risk: HIGH
+2025-08-08 15:11:00,613 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.119,879.22
+2025-08-08 15:11:34,412 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24279.525 Rs.487.59
+2025-08-08 15:11:34,413 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -48.76, Vega: 97.52, Risk: HIGH
+2025-08-08 15:11:34,413 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.36,569.29
+2025-08-08 15:11:37,699 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 54939.2625 Rs.1100.79
+2025-08-08 15:11:37,699 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -110.08, Vega: 220.16, Risk: HIGH
+2025-08-08 15:11:37,700 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.82,558.89
+2025-08-08 15:11:41,063 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79819.48 Rs.1598.39
+2025-08-08 15:11:41,063 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -159.84, Vega: 319.68, Risk: HIGH
+2025-08-08 15:11:41,064 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.119,879.22
+2025-08-08 15:11:44,489 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24279.525 Rs.487.59
+2025-08-08 15:11:44,490 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -48.76, Vega: 97.52, Risk: HIGH
+2025-08-08 15:11:44,491 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.36,569.29
+2025-08-08 15:11:47,941 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 54939.2625 Rs.1100.79
+2025-08-08 15:11:47,941 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -110.08, Vega: 220.16, Risk: HIGH
+2025-08-08 15:11:47,942 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.82,558.89
+2025-08-08 15:11:51,347 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79819.48 Rs.1598.39
+2025-08-08 15:11:51,348 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -159.84, Vega: 319.68, Risk: HIGH
+2025-08-08 15:11:51,348 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.119,879.22
+2025-08-08 15:12:30,122 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24274.512499999997 Rs.487.49
+2025-08-08 15:12:30,122 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -48.75, Vega: 97.50, Risk: HIGH
+2025-08-08 15:12:30,123 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.36,561.77
+2025-08-08 15:12:33,646 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 55029.424999999996 Rs.825.44
+2025-08-08 15:12:33,647 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.54, Vega: 165.09, Risk: HIGH
+2025-08-08 15:12:33,647 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.61,908.10
+2025-08-08 15:12:37,037 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79903.73749999999 Rs.1198.56
+2025-08-08 15:12:37,037 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -119.86, Vega: 239.71, Risk: HIGH
+2025-08-08 15:12:37,038 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.89,891.70
+2025-08-08 15:14:10,359 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24343.5125 Rs.365.15
+2025-08-08 15:14:10,359 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.52, Vega: 73.03, Risk: HIGH
+2025-08-08 15:14:10,360 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,386.45
+2025-08-08 15:14:13,845 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79797.8225 Rs.1196.97
+2025-08-08 15:14:13,845 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -119.70, Vega: 239.39, Risk: HIGH
+2025-08-08 15:14:13,846 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.89,772.55
+2025-08-08 15:14:17,387 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 54945.2375 Rs.824.18
+2025-08-08 15:14:17,387 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.42, Vega: 164.84, Risk: HIGH
+2025-08-08 15:14:17,388 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.61,813.39
+2025-08-08 15:14:20,836 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24343.5125 Rs.365.15
+2025-08-08 15:14:20,836 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.52, Vega: 73.03, Risk: HIGH
+2025-08-08 15:14:20,837 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,386.45
+2025-08-08 15:14:24,663 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 54945.2375 Rs.824.18
+2025-08-08 15:14:24,664 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.42, Vega: 164.84, Risk: HIGH
+2025-08-08 15:14:24,665 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.61,813.39
+2025-08-08 15:14:27,930 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79797.8225 Rs.1196.97
+2025-08-08 15:14:27,931 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -119.70, Vega: 239.39, Risk: HIGH
+2025-08-08 15:14:27,931 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.89,772.55
+2025-08-08 15:15:01,263 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79803.175 Rs.1197.05
+2025-08-08 15:15:01,264 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -119.70, Vega: 239.41, Risk: HIGH
+2025-08-08 15:15:01,264 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.89,778.57
+2025-08-08 15:15:04,689 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79803.175 Rs.1197.05
+2025-08-08 15:15:04,689 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -119.70, Vega: 239.41, Risk: HIGH
+2025-08-08 15:15:04,690 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.89,778.57
+2025-08-08 15:15:38,052 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79803.175 Rs.1197.05
+2025-08-08 15:15:38,052 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -119.70, Vega: 239.41, Risk: HIGH
+2025-08-08 15:15:38,053 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.89,778.57
+2025-08-08 15:20:17,402 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 54946.3875 Rs.824.20
+2025-08-08 15:20:17,402 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.42, Vega: 164.84, Risk: HIGH
+2025-08-08 15:20:17,403 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.61,814.69
+2025-08-08 15:20:21,068 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24346.7875 Rs.365.20
+2025-08-08 15:20:21,069 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.52, Vega: 73.04, Risk: HIGH
+2025-08-08 15:20:21,069 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,390.14
+2025-08-08 15:20:24,602 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24346.7875 Rs.365.20
+2025-08-08 15:20:24,602 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.52, Vega: 73.04, Risk: HIGH
+2025-08-08 15:20:24,603 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,390.14
+2025-08-08 15:20:28,134 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 54946.3875 Rs.824.20
+2025-08-08 15:20:28,135 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.42, Vega: 164.84, Risk: HIGH
+2025-08-08 15:20:28,135 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.61,814.69
+2025-08-08 15:21:01,656 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 54941.799999999996 Rs.824.13
+2025-08-08 15:21:01,656 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.41, Vega: 164.83, Risk: HIGH
+2025-08-08 15:21:01,657 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.61,809.52
+2025-08-08 15:21:05,102 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79813.48749999999 Rs.1197.20
+2025-08-08 15:21:05,103 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -119.72, Vega: 239.44, Risk: HIGH
+2025-08-08 15:21:05,103 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.89,790.17
+2025-08-08 15:21:08,544 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24344.112500000003 Rs.365.16
+2025-08-08 15:21:08,545 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.52, Vega: 73.03, Risk: HIGH
+2025-08-08 15:21:08,545 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,387.13
+2025-08-08 15:21:12,204 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24344.112500000003 Rs.365.16
+2025-08-08 15:21:12,205 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.52, Vega: 73.03, Risk: HIGH
+2025-08-08 15:21:12,206 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,387.13
+2025-08-08 15:21:15,675 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 54941.799999999996 Rs.824.13
+2025-08-08 15:21:15,676 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.41, Vega: 164.83, Risk: HIGH
+2025-08-08 15:21:15,676 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.61,809.52
+2025-08-08 15:21:19,301 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79813.48749999999 Rs.1197.20
+2025-08-08 15:21:19,301 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -119.72, Vega: 239.44, Risk: HIGH
+2025-08-08 15:21:19,302 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.89,790.17
+2025-08-08 15:21:52,831 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 24344.112500000003 Rs.365.16
+2025-08-08 15:21:52,832 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -36.52, Vega: 73.03, Risk: HIGH
+2025-08-08 15:21:52,832 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,387.13
+2025-08-08 15:21:56,187 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 54941.799999999996 Rs.824.13
+2025-08-08 15:21:56,187 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.41, Vega: 164.83, Risk: HIGH
+2025-08-08 15:21:56,188 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.61,809.52
+2025-08-08 15:21:59,624 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 79813.48749999999 Rs.1197.20
+2025-08-08 15:21:59,625 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -119.72, Vega: 239.44, Risk: HIGH
+2025-08-08 15:21:59,625 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.89,790.17
+2025-08-08 15:22:33,068 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 54939.174999999996 Rs.824.09
+2025-08-08 15:22:33,069 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.41, Vega: 164.82, Risk: HIGH
+2025-08-08 15:22:33,069 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.61,806.57
+2025-08-08 15:22:36,527 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of PE @ Strike 54939.174999999996 Rs.824.09
+2025-08-08 15:22:36,528 - trading - INFO - trading_bot.py:951 - Greeks - Delta: -0.500, Theta: -82.41, Vega: 164.82, Risk: HIGH
+2025-08-08 15:22:36,528 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.61,806.57
+2025-08-08 15:26:15,870 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24350.2125 Rs.365.25
+2025-08-08 15:26:15,871 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -36.53, Vega: 73.05, Risk: HIGH
+2025-08-08 15:26:15,871 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,393.99
+2025-08-08 15:26:19,367 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24350.2125 Rs.365.25
+2025-08-08 15:26:19,368 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -36.53, Vega: 73.05, Risk: HIGH
+2025-08-08 15:26:19,368 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,393.99
+2025-08-08 15:26:52,871 - trading - INFO - trading_bot.py:945 - OPTION TRADE - BUY 1 lots (75 shares) of CE @ Strike 24350.2125 Rs.365.25
+2025-08-08 15:26:52,871 - trading - INFO - trading_bot.py:951 - Greeks - Delta: 0.500, Theta: -36.53, Vega: 73.05, Risk: HIGH
+2025-08-08 15:26:52,872 - trading - INFO - trading_bot.py:957 - Total Investment: Rs.27,393.99
+2025-08-11 09:31:17,054 - trading - INFO - trading_bot.py:960 - PAPER TRADE - BUY 1 lot of 24400PE @ Rs.120.00
+2025-08-11 09:31:17,162 - trading - INFO - trading_bot.py:964 - Investment: Rs.9,000.00
+2025-08-11 09:31:20,486 - trading - INFO - trading_bot.py:960 - PAPER TRADE - BUY 1 lot of 24400PE @ Rs.120.00
+2025-08-11 09:31:20,487 - trading - INFO - trading_bot.py:964 - Investment: Rs.9,000.00
+2025-08-11 10:36:11,123 - trading - INFO - trading_bot.py:960 - PAPER TRADE - BUY 1 lot of 24450CE @ Rs.120.00
+2025-08-11 10:36:11,124 - trading - INFO - trading_bot.py:964 - Investment: Rs.9,000.00
+2025-08-11 10:36:14,415 - trading - INFO - trading_bot.py:960 - PAPER TRADE - BUY 1 lot of 24450CE @ Rs.120.00
+2025-08-11 10:36:14,415 - trading - INFO - trading_bot.py:964 - Investment: Rs.9,000.00
+2025-08-11 11:37:24,699 - trading - INFO - trading_bot.py:960 - PAPER TRADE - BUY 1 lot of 24450PE @ Rs.120.00
+2025-08-11 11:37:24,700 - trading - INFO - trading_bot.py:964 - Investment: Rs.9,000.00
+2025-08-11 11:37:28,075 - trading - INFO - trading_bot.py:960 - PAPER TRADE - BUY 1 lot of 24450PE @ Rs.120.00
+2025-08-11 11:37:28,076 - trading - INFO - trading_bot.py:964 - Investment: Rs.9,000.00
+2025-08-11 12:54:06,876 - trading - INFO - trading_bot.py:960 - PAPER TRADE - BUY 1 lot of 24450CE @ Rs.120.00
+2025-08-11 12:54:06,877 - trading - INFO - trading_bot.py:964 - Investment: Rs.9,000.00
+2025-08-11 12:54:10,236 - trading - INFO - trading_bot.py:960 - PAPER TRADE - BUY 1 lot of 24450CE @ Rs.120.00
+2025-08-11 12:54:10,237 - trading - INFO - trading_bot.py:964 - Investment: Rs.9,000.00
+2025-08-11 13:58:04,330 - trading - INFO - trading_bot.py:949 - PAPER TRADE - BUY 1 lot of 24500CE @ Rs.120.00
+2025-08-11 13:58:04,331 - trading - INFO - trading_bot.py:953 - Investment: Rs.9,000.00
+2025-08-11 13:58:07,760 - trading - INFO - trading_bot.py:949 - PAPER TRADE - BUY 1 lot of 24500CE @ Rs.120.00
+2025-08-11 13:58:07,761 - trading - INFO - trading_bot.py:953 - Investment: Rs.9,000.00
+2025-08-11 15:20:14,363 - trading - INFO - trading_bot.py:949 - PAPER TRADE - SELL 2 lot of  @ Rs.120.00
+2025-08-11 15:20:14,364 - trading - INFO - trading_bot.py:953 - Investment: Rs.18,000.00
+2025-08-11 15:20:17,820 - trading - INFO - trading_bot.py:1472 - Position closed: NIFTY_CE P&L: Rs.0.00
+2025-08-12 09:32:18,075 - trading - INFO - trading_bot.py:949 - PAPER TRADE - BUY 1 lot of 24600CE @ Rs.120.00
+2025-08-12 09:32:18,076 - trading - INFO - trading_bot.py:953 - Investment: Rs.9,000.00
+2025-08-12 09:32:21,331 - trading - INFO - trading_bot.py:949 - PAPER TRADE - BUY 1 lot of 24600CE @ Rs.120.00
+2025-08-12 09:32:21,331 - trading - INFO - trading_bot.py:953 - Investment: Rs.9,000.00
+2025-08-12 14:32:15,693 - trading - INFO - trading_bot.py:1001 - PAPER TRADE - BUY 1 lot of 24550PE @ Rs.120.00
+2025-08-12 14:32:15,694 - trading - INFO - trading_bot.py:1005 - Investment: Rs.9,000.00
+2025-08-12 15:20:19,256 - trading - INFO - trading_bot.py:1001 - PAPER TRADE - SELL 1 lot of  @ Rs.120.00
+2025-08-12 15:20:19,256 - trading - INFO - trading_bot.py:1005 - Investment: Rs.9,000.00
+2025-08-12 15:20:22,628 - trading - INFO - trading_bot.py:1524 - Position closed: NIFTY_PE P&L: Rs.0.00
+2025-08-13 10:08:34,436 - trading - INFO - trading_bot.py:314 - PAPER TRADE - BUY 1 lot of 24600PE @ Rs.520.07
+2025-08-13 10:08:34,438 - trading - INFO - trading_bot.py:318 - Investment: Rs.39,005.25
+2025-08-13 10:09:36,214 - trading - INFO - trading_bot.py:314 - PAPER TRADE - BUY 1 lot of 24600PE @ Rs.489.48
+2025-08-13 10:09:36,215 - trading - INFO - trading_bot.py:318 - Investment: Rs.36,711.00
+2025-08-13 11:37:20,462 - trading - INFO - trading_bot.py:314 - PAPER TRADE - BUY 1 lot of 24600CE @ Rs.52.20
+2025-08-13 11:37:20,464 - trading - INFO - trading_bot.py:318 - Investment: Rs.3,915.00
+2025-08-13 11:40:27,678 - trading - INFO - trading_bot.py:314 - PAPER TRADE - BUY 1 lot of 24600PE @ Rs.56.00
+2025-08-13 11:40:27,678 - trading - INFO - trading_bot.py:318 - Investment: Rs.4,200.00
+2025-08-13 11:44:29,416 - trading - INFO - trading_bot.py:314 - PAPER TRADE - BUY 1 lot of 24550PE @ Rs.54.35
+2025-08-13 11:44:29,417 - trading - INFO - trading_bot.py:318 - Investment: Rs.4,076.25
+2025-08-13 11:45:36,857 - trading - INFO - trading_bot.py:314 - PAPER TRADE - BUY 1 lot of 24550PE @ Rs.53.05
+2025-08-13 11:45:36,858 - trading - INFO - trading_bot.py:318 - Investment: Rs.3,978.75
+2025-08-14 09:36:17,081 - trading - INFO - trading_bot.py:1057 - PAPER TRADE - BUY 1 lot of 24600PE @ Rs.120.00
+2025-08-14 09:36:17,082 - trading - INFO - trading_bot.py:1061 - Investment: Rs.9,000.00
+2025-08-19 12:52:49,802 - trading - INFO - trading_bot.py:1056 - PAPER TRADE - BUY 1 lot of NIFTY @ Rs.24984.50
+2025-08-19 12:52:49,826 - trading - INFO - trading_bot.py:1060 - Investment: Rs.1,873,837.50

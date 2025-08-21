@@ -1,0 +1,34 @@
+{
+  "email": "valanlalvani04@gmail.com",
+  "exchanges": [
+    "BCD",
+    "CDS",
+    "NFO",
+    "NSE",
+    "MCX",
+    "BFO",
+    "BSE"
+  ],
+  "products": [
+    "OCO",
+    "D",
+    "CO",
+    "I"
+  ],
+  "broker": "UPSTOX",
+  "user_id": "2GCECC",
+  "user_name": "VALAN LALVANI",
+  "order_types": [
+    "MARKET",
+    "LIMIT",
+    "SL",
+    "SL-M"
+  ],
+  "user_type": "individual",
+  "poa": false,
+  "ddpi": false,
+  "is_active": true,
+  "access_token": "eyJ0eXAiOiJKV1QiLCJrZXlfaWQiOiJza192MS4wIiwiYWxnIjoiSFMyNTYifQ.eyJzdWIiOiIyR0NFQ0MiLCJqdGkiOiI2OGE2OThhMTFmMzUwOTdmNTRjNDc2ZWIiLCJpc011bHRpQ2xpZW50IjpmYWxzZSwiaXNQbHVzUGxhbiI6dHJ1ZSwiaWF0IjoxNzU1NzQ4NTEzLCJpc3MiOiJ1ZGFwaS1nYXRld2F5LXNlcnZpY2UiLCJleHAiOjE3NTU4MTM2MDB9.7t9VYqs9tZpJC4RPUQrFbfTm6K4RMv-tRhplEQHtV5E",
+  "extended_token": null,
+  "saved_at": "2025-08-21T09:25:12.923696"
+}

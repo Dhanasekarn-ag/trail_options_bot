@@ -1,0 +1,580 @@
+2025-08-08 15:54:21,520 - src.websocket.websocket_manager - ERROR - websocket_manager.py:570 - Market websocket error: Connection to remote host was lost.
+2025-08-08 15:54:21,521 - src.websocket.websocket_manager - ERROR - websocket_manager.py:592 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-08 15:54:21,542 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-08 15:54:21,543 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-08 15:54:22,009 - src.websocket.websocket_manager - ERROR - websocket_manager.py:570 - Market websocket error: Handshake status 401 Unauthorized -+-+- {'date': 'Sat, 09 Aug 2025 09:31:23 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'reqid': '86e68e91-53ea-4dc6-aab6-2553194a0137', 'x-content-type-options': 'nosniff', 'x-xss-protection': '0', 'pragma': 'no-cache', 'strict-transport-security': 'max-age=0; includeSubDomains', 'x-frame-options': 'DENY', 'cache-control': 'must-revalidate,no-cache,no-store', 'vary': 'Access-Control-Request-Headers', 'message': 'request failed', 'cf-cache-status': 'DYNAMIC', 'set-cookie': '__cf_bm=Bshz.El7Jviogq7XQCt07zYBsDIk2U6tH60JnjqG95I-1754731883-1.0.1.1-vkJv2e6RBN3PNanGw4IVf7EoUYzJUIFxgvs4PE48E4aX.T2U5I_vDsAiz0iFg13e; path=/; expires=Sat, 09-Aug-25 10:01:23 GMT; domain=.upstox.com; HttpOnly; Secure; _cfuvid=DBsYfvx4o3gP9XfUj4dFz2vMXHUMtS0nEhXMGvnEggI-1754731883345-0.0.1.1-604800000; path=/; domain=.upstox.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'cf-ray': '96c63d7dbda2dcf0-MAA', 'alt-svc': 'h3=":443"; ma=86400'} -+-+- None
+2025-08-08 15:54:22,012 - websocket - ERROR - _logging.py:77 - Handshake status 401 Unauthorized -+-+- {'date': 'Sat, 09 Aug 2025 09:31:23 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'reqid': '86e68e91-53ea-4dc6-aab6-2553194a0137', 'x-content-type-options': 'nosniff', 'x-xss-protection': '0', 'pragma': 'no-cache', 'strict-transport-security': 'max-age=0; includeSubDomains', 'x-frame-options': 'DENY', 'cache-control': 'must-revalidate,no-cache,no-store', 'vary': 'Access-Control-Request-Headers', 'message': 'request failed', 'cf-cache-status': 'DYNAMIC', 'set-cookie': '__cf_bm=Bshz.El7Jviogq7XQCt07zYBsDIk2U6tH60JnjqG95I-1754731883-1.0.1.1-vkJv2e6RBN3PNanGw4IVf7EoUYzJUIFxgvs4PE48E4aX.T2U5I_vDsAiz0iFg13e; path=/; expires=Sat, 09-Aug-25 10:01:23 GMT; domain=.upstox.com; HttpOnly; Secure; _cfuvid=DBsYfvx4o3gP9XfUj4dFz2vMXHUMtS0nEhXMGvnEggI-1754731883345-0.0.1.1-604800000; path=/; domain=.upstox.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'cf-ray': '96c63d7dbda2dcf0-MAA', 'alt-svc': 'h3=":443"; ma=86400'} -+-+- None - goodbye
+2025-08-08 15:54:22,016 - src.websocket.websocket_manager - ERROR - websocket_manager.py:592 - Portfolio websocket error: Handshake status 401 Unauthorized -+-+- {'date': 'Sat, 09 Aug 2025 09:31:23 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'reqid': '855f96d1-44db-43e2-a760-dcb808ce85a5', 'x-content-type-options': 'nosniff', 'x-xss-protection': '0', 'pragma': 'no-cache', 'strict-transport-security': 'max-age=0; includeSubDomains', 'x-frame-options': 'DENY', 'cache-control': 'must-revalidate,no-cache,no-store', 'vary': 'Access-Control-Request-Headers', 'message': 'request failed', 'cf-cache-status': 'DYNAMIC', 'set-cookie': '__cf_bm=677T.3K20pxuDKKDKIJAxMDe7NgCmeBO8KABIagzKFI-1754731883-1.0.1.1-Y4z8aB6On01QfKNa800ItlnHOUqPeK0HrtudiQl0Sh7IoqX4WytPKe0jY7lIGg8M; path=/; expires=Sat, 09-Aug-25 10:01:23 GMT; domain=.upstox.com; HttpOnly; Secure; _cfuvid=Ych73C2ezsepWzPYSxLvfwg3n13iqEEH.h5rV4c2YmM-1754731883349-0.0.1.1-604800000; path=/; domain=.upstox.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'cf-ray': '96c63d7db95db85b-MAA', 'alt-svc': 'h3=":443"; ma=86400'} -+-+- None
+2025-08-08 15:54:22,018 - websocket - ERROR - _logging.py:77 - Handshake status 401 Unauthorized -+-+- {'date': 'Sat, 09 Aug 2025 09:31:23 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'reqid': '855f96d1-44db-43e2-a760-dcb808ce85a5', 'x-content-type-options': 'nosniff', 'x-xss-protection': '0', 'pragma': 'no-cache', 'strict-transport-security': 'max-age=0; includeSubDomains', 'x-frame-options': 'DENY', 'cache-control': 'must-revalidate,no-cache,no-store', 'vary': 'Access-Control-Request-Headers', 'message': 'request failed', 'cf-cache-status': 'DYNAMIC', 'set-cookie': '__cf_bm=677T.3K20pxuDKKDKIJAxMDe7NgCmeBO8KABIagzKFI-1754731883-1.0.1.1-Y4z8aB6On01QfKNa800ItlnHOUqPeK0HrtudiQl0Sh7IoqX4WytPKe0jY7lIGg8M; path=/; expires=Sat, 09-Aug-25 10:01:23 GMT; domain=.upstox.com; HttpOnly; Secure; _cfuvid=Ych73C2ezsepWzPYSxLvfwg3n13iqEEH.h5rV4c2YmM-1754731883349-0.0.1.1-604800000; path=/; domain=.upstox.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'cf-ray': '96c63d7db95db85b-MAA', 'alt-svc': 'h3=":443"; ma=86400'} -+-+- None - goodbye
+2025-08-11 02:12:59,591 - src.upstox_client - ERROR - upstox_client.py:169 - API request failed: 401, message='Unauthorized', url='https://api.upstox.com/v2/user/profile'
+2025-08-11 02:39:11,896 - src.websocket.websocket_manager - ERROR - websocket_manager.py:598 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-11 02:39:11,897 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-11 02:39:11,919 - src.websocket.websocket_manager - ERROR - websocket_manager.py:598 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-11 02:39:11,928 - src.websocket.websocket_manager - ERROR - websocket_manager.py:576 - Market websocket error: Connection to remote host was lost.
+2025-08-11 02:39:11,929 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-11 02:39:11,931 - src.websocket.websocket_manager - ERROR - websocket_manager.py:576 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-11 02:39:21,920 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-11 02:39:21,920 - src.websocket.websocket_manager - ERROR - websocket_manager.py:598 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-11 02:39:21,932 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-11 02:39:21,933 - src.websocket.websocket_manager - ERROR - websocket_manager.py:576 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-11 02:39:31,922 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-11 02:39:31,923 - src.websocket.websocket_manager - ERROR - websocket_manager.py:598 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-11 02:39:31,923 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-11 02:39:31,935 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-11 02:39:31,935 - src.websocket.websocket_manager - ERROR - websocket_manager.py:576 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-11 02:39:31,936 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-11 09:13:00,602 - src.upstox_client - ERROR - upstox_client.py:169 - API request failed: 401, message='Unauthorized', url='https://api.upstox.com/v2/user/profile'
+2025-08-11 10:15:15,334 - src.trading_bot - ERROR - trading_bot.py:1643 - Bot error: 'TradingBot' object has no attribute 'send_hourly_report'
+2025-08-11 10:38:37,105 - src.websocket.websocket_manager - ERROR - websocket_manager.py:598 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-11 10:38:37,106 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-11 10:38:41,134 - src.websocket.websocket_manager - ERROR - websocket_manager.py:576 - Market websocket error: Connection to remote host was lost.
+2025-08-11 10:38:41,135 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-11 11:19:05,079 - src.trading_bot - ERROR - trading_bot.py:1643 - Bot error: 'TradingBot' object has no attribute 'send_hourly_report'
+2025-08-11 12:22:53,125 - src.trading_bot - ERROR - trading_bot.py:1643 - Bot error: 'TradingBot' object has no attribute 'send_hourly_report'
+2025-08-11 13:30:23,816 - src.trading_bot - ERROR - trading_bot.py:1643 - Bot error: 'TradingBot' object has no attribute 'send_hourly_report'
+2025-08-11 15:31:51,517 - src.websocket.websocket_manager - ERROR - websocket_manager.py:598 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-11 15:31:51,518 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-11 15:31:51,520 - src.websocket.websocket_manager - ERROR - websocket_manager.py:598 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-11 15:31:52,998 - src.websocket.websocket_manager - ERROR - websocket_manager.py:576 - Market websocket error: Connection to remote host was lost.
+2025-08-11 15:31:52,998 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-11 15:31:53,000 - src.websocket.websocket_manager - ERROR - websocket_manager.py:576 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-11 15:32:01,522 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-11 15:32:01,522 - src.websocket.websocket_manager - ERROR - websocket_manager.py:598 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-11 15:32:03,003 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-11 15:32:03,003 - src.websocket.websocket_manager - ERROR - websocket_manager.py:576 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-11 15:32:11,524 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-11 15:32:11,524 - src.websocket.websocket_manager - ERROR - websocket_manager.py:598 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-11 15:32:11,525 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-11 15:32:13,004 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-11 15:32:13,004 - src.websocket.websocket_manager - ERROR - websocket_manager.py:576 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-11 15:32:13,005 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-12 09:15:00,329 - src.upstox_client - ERROR - upstox_client.py:169 - API request failed: 401, message='Unauthorized', url='https://api.upstox.com/v2/user/profile'
+2025-08-12 09:58:18,235 - src.websocket.websocket_manager - ERROR - websocket_manager.py:576 - Market websocket error: Connection to remote host was lost.
+2025-08-12 09:58:18,235 - src.websocket.websocket_manager - ERROR - websocket_manager.py:598 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-12 09:58:18,242 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-12 09:58:18,248 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-12 10:15:20,364 - src.websocket.websocket_manager - ERROR - websocket_manager.py:576 - Market websocket error: Connection to remote host was lost.
+2025-08-12 10:15:20,365 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-12 10:38:57,658 - src.websocket.websocket_manager - ERROR - websocket_manager.py:576 - Market websocket error: Connection to remote host was lost.
+2025-08-12 10:38:57,659 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-12 10:38:57,723 - src.websocket.websocket_manager - ERROR - websocket_manager.py:598 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-12 10:38:57,723 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-12 10:52:43,717 - src.websocket.websocket_manager - ERROR - websocket_manager.py:576 - Market websocket error: Connection to remote host was lost.
+2025-08-12 10:52:43,718 - src.websocket.websocket_manager - ERROR - websocket_manager.py:598 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-12 10:52:43,731 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-12 10:52:43,732 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-13 03:33:26,051 - src.upstox_client - ERROR - upstox_client.py:169 - API request failed: 401, message='Unauthorized', url='https://api.upstox.com/v2/user/profile'
+2025-08-13 09:40:11,886 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Handshake status 403 Forbidden -+-+- {'date': 'Wed, 13 Aug 2025 04:10:11 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None
+2025-08-13 09:40:11,888 - websocket - ERROR - _logging.py:77 - Handshake status 403 Forbidden -+-+- {'date': 'Wed, 13 Aug 2025 04:10:11 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+2025-08-13 09:40:12,322 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Handshake status 403 Forbidden -+-+- {'date': 'Wed, 13 Aug 2025 04:10:12 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None
+2025-08-13 09:40:22,403 - websocket - ERROR - _logging.py:77 - Handshake status 403 Forbidden -+-+- {'date': 'Wed, 13 Aug 2025 04:10:12 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+2025-08-13 09:40:22,787 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Handshake status 403 Forbidden -+-+- {'date': 'Wed, 13 Aug 2025 04:10:22 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None
+2025-08-13 09:40:32,826 - websocket - ERROR - _logging.py:77 - Handshake status 403 Forbidden -+-+- {'date': 'Wed, 13 Aug 2025 04:10:22 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+2025-08-13 09:40:33,231 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Handshake status 403 Forbidden -+-+- {'date': 'Wed, 13 Aug 2025 04:10:33 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None
+2025-08-13 09:40:33,232 - websocket - ERROR - _logging.py:77 - Handshake status 403 Forbidden -+-+- {'date': 'Wed, 13 Aug 2025 04:10:33 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+2025-08-13 09:45:13,805 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Handshake status 403 Forbidden -+-+- {'date': 'Wed, 13 Aug 2025 04:15:13 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None
+2025-08-13 09:45:13,806 - websocket - ERROR - _logging.py:77 - Handshake status 403 Forbidden -+-+- {'date': 'Wed, 13 Aug 2025 04:15:13 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+2025-08-13 09:45:14,254 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Handshake status 403 Forbidden -+-+- {'date': 'Wed, 13 Aug 2025 04:15:14 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None
+2025-08-13 09:45:24,269 - websocket - ERROR - _logging.py:77 - Handshake status 403 Forbidden -+-+- {'date': 'Wed, 13 Aug 2025 04:15:14 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+2025-08-13 09:45:24,694 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Handshake status 403 Forbidden -+-+- {'date': 'Wed, 13 Aug 2025 04:15:24 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None
+2025-08-13 09:45:34,696 - websocket - ERROR - _logging.py:77 - Handshake status 403 Forbidden -+-+- {'date': 'Wed, 13 Aug 2025 04:15:24 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+2025-08-13 09:45:35,046 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Handshake status 403 Forbidden -+-+- {'date': 'Wed, 13 Aug 2025 04:15:35 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None
+2025-08-13 09:45:35,050 - websocket - ERROR - _logging.py:77 - Handshake status 403 Forbidden -+-+- {'date': 'Wed, 13 Aug 2025 04:15:35 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive'} -+-+- None - goodbye
+2025-08-13 10:28:58,320 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Connection to remote host was lost.
+2025-08-13 10:28:58,321 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: [WinError 1236] The network connection was aborted by the local system
+2025-08-13 10:28:58,321 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-13 10:28:58,352 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-13 10:28:58,369 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-13 10:28:58,403 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-13 10:28:58,424 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-13 10:28:58,437 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-13 10:28:58,503 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-13 10:28:58,579 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-13 10:29:08,521 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-13 10:29:08,585 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-13 10:32:11,645 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Connection to remote host was lost.
+2025-08-13 10:32:11,645 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-13 10:32:11,654 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-13 10:32:11,655 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-13 10:32:22,741 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-13 10:32:22,741 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-13 10:32:32,744 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-13 10:32:32,744 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-13 10:32:32,744 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-13 10:32:32,744 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-13 10:32:42,754 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-13 10:32:42,756 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-13 10:39:17,298 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Connection to remote host was lost.
+2025-08-13 10:39:17,299 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-13 10:39:17,344 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-13 10:39:17,345 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-13 10:44:14,131 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 10:45:19,946 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 10:46:19,964 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 10:47:19,979 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 10:48:19,998 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 10:49:20,026 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 10:50:25,650 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 10:51:25,665 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 10:52:25,680 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 10:53:25,702 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 10:54:25,721 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 10:55:31,503 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 10:56:31,542 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 10:57:31,556 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 10:58:31,593 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 10:59:31,623 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 11:00:37,284 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 11:01:37,309 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 11:02:37,330 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 11:03:37,346 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 11:04:37,367 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 11:05:42,928 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 11:06:42,938 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 11:07:42,958 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 11:08:42,987 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 11:09:43,018 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 11:10:49,635 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 11:11:49,651 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:193 - Error in should_enter: 'EnhancedPineScriptStrategy' object has no attribute 'calculate_trend_line'
+2025-08-13 12:20:33,048 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Connection to remote host was lost.
+2025-08-13 12:20:33,049 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-13 12:20:33,059 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-13 12:20:33,060 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-13 12:22:46,540 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Connection to remote host was lost.
+2025-08-13 12:22:46,540 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-13 12:22:46,552 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-13 12:22:46,558 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-13 12:23:01,212 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-13 12:23:01,212 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Connection to remote host was lost.
+2025-08-13 12:23:01,235 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-13 12:23:01,251 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-13 12:23:01,294 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-13 12:23:01,317 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-13 12:23:11,308 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-13 12:23:11,331 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-13 14:07:20,929 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:489 - Error fetching real premium: name 'timedelta' is not defined
+2025-08-13 14:07:20,931 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:422 - Could not fetch real premium for 24650PE
+2025-08-13 14:16:38,544 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:489 - Error fetching real premium: name 'timedelta' is not defined
+2025-08-13 14:16:38,545 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:422 - Could not fetch real premium for 24650CE
+2025-08-13 14:23:50,387 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:489 - Error fetching real premium: name 'timedelta' is not defined
+2025-08-13 14:23:50,454 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:422 - Could not fetch real premium for 24650PE
+2025-08-13 14:23:52,346 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Connection to remote host was lost.
+2025-08-13 14:23:52,347 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-13 14:23:52,444 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-13 14:23:52,753 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-13 14:35:09,263 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:489 - Error fetching real premium: name 'timedelta' is not defined
+2025-08-13 14:35:09,265 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:422 - Could not fetch real premium for 24650CE
+2025-08-13 14:37:09,329 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:489 - Error fetching real premium: name 'timedelta' is not defined
+2025-08-13 14:37:09,331 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:422 - Could not fetch real premium for 24650PE
+2025-08-13 14:38:09,472 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:489 - Error fetching real premium: name 'timedelta' is not defined
+2025-08-13 14:38:09,473 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:422 - Could not fetch real premium for 24650PE
+2025-08-13 14:43:15,256 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:489 - Error fetching real premium: name 'timedelta' is not defined
+2025-08-13 14:43:15,260 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:422 - Could not fetch real premium for 24650CE
+2025-08-13 14:47:21,135 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:489 - Error fetching real premium: name 'timedelta' is not defined
+2025-08-13 14:47:21,135 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:422 - Could not fetch real premium for 24650CE
+2025-08-13 15:01:39,860 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:489 - Error fetching real premium: name 'timedelta' is not defined
+2025-08-13 15:01:39,860 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:422 - Could not fetch real premium for 24650PE
+2025-08-13 15:02:39,885 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:489 - Error fetching real premium: name 'timedelta' is not defined
+2025-08-13 15:02:39,885 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:422 - Could not fetch real premium for 24650PE
+2025-08-13 15:03:39,995 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:489 - Error fetching real premium: name 'timedelta' is not defined
+2025-08-13 15:03:39,995 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:422 - Could not fetch real premium for 24650PE
+2025-08-13 15:04:45,760 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:489 - Error fetching real premium: name 'timedelta' is not defined
+2025-08-13 15:04:45,760 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:422 - Could not fetch real premium for 24650PE
+2025-08-13 15:06:45,783 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:489 - Error fetching real premium: name 'timedelta' is not defined
+2025-08-13 15:06:45,784 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:422 - Could not fetch real premium for 24600PE
+2025-08-13 15:07:46,125 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:489 - Error fetching real premium: name 'timedelta' is not defined
+2025-08-13 15:07:46,136 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:422 - Could not fetch real premium for 24600PE
+2025-08-13 15:08:46,186 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:489 - Error fetching real premium: name 'timedelta' is not defined
+2025-08-13 15:08:46,186 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:422 - Could not fetch real premium for 24600PE
+2025-08-13 15:09:51,679 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:489 - Error fetching real premium: name 'timedelta' is not defined
+2025-08-13 15:09:51,680 - src.strategy.enhanced_pine_script_strategy - ERROR - enhanced_pine_script_strategy.py:422 - Could not fetch real premium for 24600PE
+2025-08-14 01:46:51,584 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-14 01:46:51,606 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-14 01:46:53,207 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Connection to remote host was lost.
+2025-08-14 01:46:53,208 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-14 09:17:07,634 - src.upstox_client - ERROR - upstox_client.py:169 - API request failed: 401, message='Unauthorized', url='https://api.upstox.com/v2/user/profile'
+2025-08-14 10:21:23,192 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Connection to remote host was lost.
+2025-08-14 10:21:23,193 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-14 10:21:23,207 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-14 10:21:23,209 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-14 10:21:37,869 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Connection to remote host was lost.
+2025-08-14 10:21:37,869 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-14 10:21:37,885 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-14 10:21:37,889 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-14 10:21:37,997 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-14 10:21:37,997 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-14 10:21:48,015 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-14 10:21:48,021 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-14 10:54:23,694 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-08-14 10:54:23,708 - websocket - ERROR - _logging.py:77 - [WinError 10053] An established connection was aborted by the software in your host machine - goodbye
+2025-08-19 12:08:39,794 - src.upstox_client - ERROR - upstox_client.py:169 - API request failed: 401, message='Unauthorized', url='https://api.upstox.com/v2/user/profile'
+2025-08-20 09:21:28,161 - src.upstox_client - ERROR - upstox_client.py:169 - API request failed: 401, message='Unauthorized', url='https://api.upstox.com/v2/user/profile'
+2025-08-20 10:02:19,633 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 10:02:19,634 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 10:02:19,636 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 10:02:19,638 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:31:44,090 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:278 - Error fetching option LTP: Cannot connect to host api.upstox.com:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:32:14,728 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-20 11:32:14,729 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-20 11:32:14,731 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:32:16,064 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Connection to remote host was lost.
+2025-08-20 11:32:16,065 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-20 11:32:16,066 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:32:24,734 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:32:24,734 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:32:26,069 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:32:26,069 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:32:34,737 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:32:34,737 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:32:34,738 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:32:36,071 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:32:36,071 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:32:36,072 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:33:44,129 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:278 - Error fetching option LTP: Cannot connect to host api.upstox.com:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:34:16,158 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:34:16,161 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:34:16,163 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:34:16,167 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:34:16,169 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:34:16,188 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:34:16,190 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:34:16,191 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:34:16,233 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:34:16,287 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:34:26,166 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:34:26,167 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:34:26,201 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:34:26,202 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:34:36,169 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:34:36,169 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:34:36,170 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:34:36,204 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:34:36,204 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:34:36,205 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:34:46,370 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:278 - Error fetching option LTP: Cannot connect to host api.upstox.com:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:35:46,404 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:278 - Error fetching option LTP: Cannot connect to host api.upstox.com:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:36:46,965 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:278 - Error fetching option LTP: Cannot connect to host api.upstox.com:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:37:47,305 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:278 - Error fetching option LTP: Cannot connect to host api.upstox.com:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:38:47,328 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:278 - Error fetching option LTP: Cannot connect to host api.upstox.com:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:39:19,369 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:39:19,370 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:39:19,373 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:39:19,375 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:39:19,376 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:39:19,379 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:39:19,381 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:39:19,382 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:39:19,385 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:39:19,387 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:39:29,375 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:39:29,375 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:39:29,382 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:39:29,383 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:39:39,377 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:39:39,378 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:39:39,379 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:39:39,384 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:39:39,384 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:39:39,387 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:39:49,406 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:278 - Error fetching option LTP: Cannot connect to host api.upstox.com:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:44:21,518 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:44:21,521 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:44:21,523 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:44:21,525 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:44:21,528 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:44:21,531 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:44:21,533 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:44:21,534 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:44:21,536 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:44:21,538 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:44:31,526 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:44:31,526 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:44:31,537 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:44:31,537 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:44:41,529 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:44:41,529 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:44:41,530 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:44:41,539 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:44:41,540 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:44:41,540 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:49:23,679 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:49:23,679 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:49:23,683 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:49:23,685 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:49:23,687 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:49:23,690 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:49:23,691 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:49:23,693 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:49:23,695 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:49:23,698 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:49:33,685 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:49:33,685 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:49:33,692 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:49:33,692 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:49:43,687 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:49:43,687 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:49:43,688 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:49:43,694 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:49:43,694 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:49:43,695 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:54:25,846 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:54:25,847 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:54:25,850 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:54:25,852 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:54:25,853 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:54:25,858 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:54:25,859 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:54:25,860 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:54:25,862 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:54:25,864 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 11:54:35,853 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:54:35,853 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:54:35,861 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:54:35,862 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:54:45,855 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:54:45,855 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:54:45,857 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:54:45,864 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 11:54:45,865 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 11:54:45,866 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:06:30,989 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-20 13:06:30,990 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-20 13:06:31,420 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Connection to remote host was lost.
+2025-08-20 13:06:31,421 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-20 13:06:52,182 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-08-20 13:06:52,469 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-08-20 13:07:02,185 - websocket - ERROR - _logging.py:77 - [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond - goodbye
+2025-08-20 13:07:02,185 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:07:02,480 - websocket - ERROR - _logging.py:77 - [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond - goodbye
+2025-08-20 13:07:09,564 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:07:12,187 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:07:12,187 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:07:12,188 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:07:19,566 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:07:19,566 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:07:19,567 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:10:56,405 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:10:56,407 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:10:56,411 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:10:56,414 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:10:56,416 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:10:56,419 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:10:56,421 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:10:56,422 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:10:56,424 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:10:56,426 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:11:06,412 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:11:06,413 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:11:06,422 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:11:06,422 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:11:16,416 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:11:16,416 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:11:16,417 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:11:16,425 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:11:16,426 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:11:16,427 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:15:58,565 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:15:58,566 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:15:58,571 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:15:58,573 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:15:58,575 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:15:58,578 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:15:58,579 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:15:58,580 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:15:58,582 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:15:58,584 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:16:08,573 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:16:08,573 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:16:08,582 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:16:08,582 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:16:18,575 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:16:18,575 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:16:18,576 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:16:18,584 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:16:18,585 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:16:18,587 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:21:00,730 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:21:00,732 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:21:00,735 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:21:00,739 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:21:00,741 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:21:00,743 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:21:00,744 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:21:00,745 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:21:00,748 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:21:00,750 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:21:10,738 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:21:10,738 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:21:10,746 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:21:10,746 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:21:20,739 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:21:20,739 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:21:20,740 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:21:20,748 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:21:20,749 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:21:20,749 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:24:00,824 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:24:00,826 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:26:02,893 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:26:02,894 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:26:02,897 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:26:02,899 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:26:02,900 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:26:02,904 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:26:02,905 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:26:02,906 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:26:02,909 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:26:02,910 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:26:12,898 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:26:12,899 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:26:12,906 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:26:12,907 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:26:22,902 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:26:22,902 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:26:22,903 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:26:22,909 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:26:22,909 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:26:22,910 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:31:05,027 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:31:05,028 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:31:05,032 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:31:05,035 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:31:05,037 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:31:05,040 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:31:05,040 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:31:05,043 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:31:05,044 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:31:05,045 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:31:15,034 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:31:15,034 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:31:15,043 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:31:15,043 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:31:25,036 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:31:25,037 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:31:25,038 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:31:25,045 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:31:25,046 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:31:25,047 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:36:07,164 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:36:07,165 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:36:07,168 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:36:07,171 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:36:07,172 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:36:07,176 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:36:07,178 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:36:07,179 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:36:07,182 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to 5636009404: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:36:07,183 - src.utils.notification - ERROR - notification.py:65 - Error sending Telegram message to -1002867661585: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-20 13:36:17,171 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:36:17,171 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:36:17,181 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:36:17,181 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:36:27,174 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:36:27,174 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:36:27,175 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:36:27,183 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:36:27,183 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 13:36:27,184 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 13:59:54,058 - src.upstox_api_client - ERROR - upstox_api_client.py:66 - Failed to load stored token: 'UpstoxClient' object has no attribute 'headers'
+2025-08-20 14:39:44,523 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:157 - Error calculating option strike: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 14:39:44,526 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:254 - Error fetching option LTP for 25050CE: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 14:39:44,527 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:443 - Could not fetch option premium for 25050CE
+2025-08-20 14:40:50,172 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:157 - Error calculating option strike: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 14:40:50,176 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:254 - Error fetching option LTP for 25050CE: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 14:40:50,178 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:443 - Could not fetch option premium for 25050CE
+2025-08-20 14:47:35,721 - src.upstox_api_client - ERROR - upstox_api_client.py:66 - Failed to load stored token: 'UpstoxClient' object has no attribute 'headers'
+2025-08-20 14:48:56,433 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:157 - Error calculating option strike: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 14:48:56,435 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:254 - Error fetching option LTP for 25050PE: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 14:48:56,436 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:443 - Could not fetch option premium for 25050PE
+2025-08-20 14:59:08,267 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:157 - Error calculating option strike: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 14:59:08,271 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:254 - Error fetching option LTP for 25050PE: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 14:59:08,272 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:443 - Could not fetch option premium for 25050PE
+2025-08-20 15:01:16,421 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:157 - Error calculating option strike: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 15:01:16,425 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:254 - Error fetching option LTP for 25050PE: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 15:01:16,426 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:443 - Could not fetch option premium for 25050PE
+2025-08-20 15:03:16,467 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:157 - Error calculating option strike: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 15:03:16,470 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:254 - Error fetching option LTP for 25050PE: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 15:03:16,471 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:443 - Could not fetch option premium for 25050PE
+2025-08-20 15:04:16,490 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:157 - Error calculating option strike: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 15:04:16,494 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:254 - Error fetching option LTP for 25050PE: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 15:04:16,495 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:443 - Could not fetch option premium for 25050PE
+2025-08-20 15:09:22,283 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:157 - Error calculating option strike: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 15:09:22,287 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:254 - Error fetching option LTP for 25050CE: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 15:09:22,288 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:443 - Could not fetch option premium for 25050CE
+2025-08-20 15:11:28,056 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:157 - Error calculating option strike: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 15:11:28,059 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:254 - Error fetching option LTP for 25050PE: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 15:11:28,060 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:443 - Could not fetch option premium for 25050PE
+2025-08-20 15:15:28,148 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:157 - Error calculating option strike: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 15:15:28,151 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:254 - Error fetching option LTP for 25050PE: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 15:15:28,152 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:443 - Could not fetch option premium for 25050PE
+2025-08-20 15:16:34,079 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:157 - Error calculating option strike: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 15:16:34,082 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:254 - Error fetching option LTP for 25050PE: 'OptionIntegratedPineScript' object has no attribute 'option_chain_manager'
+2025-08-20 15:16:34,083 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:443 - Could not fetch option premium for 25050PE
+2025-08-20 15:33:37,608 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Connection to remote host was lost.
+2025-08-20 15:33:37,608 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Connection to remote host was lost.
+2025-08-20 15:33:37,608 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: Connection to remote host was lost.
+2025-08-20 15:33:37,609 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-20 15:33:37,610 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-20 15:33:48,711 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 15:33:48,711 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 15:33:48,711 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 15:33:58,713 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 15:33:58,713 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 15:33:58,714 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 15:33:58,714 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 15:33:58,714 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 15:34:08,716 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 15:34:08,716 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 15:34:08,717 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 15:34:08,718 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 15:34:08,718 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 15:34:08,718 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 15:34:08,718 - src.websocket.websocket_manager - ERROR - websocket_manager.py:578 - Market websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 15:34:08,719 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 15:34:08,720 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 15:34:11,598 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-20 15:34:11,599 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-20 15:34:11,601 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 15:34:13,805 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-20 15:34:13,806 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-20 15:34:13,808 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 15:34:13,835 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: Connection to remote host was lost.
+2025-08-20 15:34:13,836 - websocket - ERROR - _logging.py:77 - Connection to remote host was lost. - goodbye
+2025-08-20 15:34:13,838 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 15:34:21,603 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 15:34:21,603 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 15:34:23,810 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 15:34:23,810 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 15:34:23,840 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 15:34:23,840 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 15:34:31,607 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 15:34:31,607 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 15:34:31,608 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 15:34:33,812 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 15:34:33,813 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 15:34:33,814 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 15:34:33,842 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-20 15:34:33,842 - src.websocket.websocket_manager - ERROR - websocket_manager.py:600 - Portfolio websocket error: [Errno 11001] getaddrinfo failed
+2025-08-20 15:34:33,843 - websocket - ERROR - _logging.py:77 - [Errno 11001] getaddrinfo failed - goodbye
+2025-08-21 09:24:03,863 - src.upstox_api_client - ERROR - upstox_api_client.py:66 - Failed to load stored token: 'UpstoxClient' object has no attribute 'headers'
+2025-08-21 09:24:04,179 - src.upstox_api_client - ERROR - upstox_api_client.py:181 - API request failed: 401, message='Unauthorized', url='https://api.upstox.com/v2/user/profile'
+2025-08-21 10:04:33,633 - src.options.option_chain_manager - ERROR - option_chain_manager.py:49 - Could not fetch spot price
+2025-08-21 10:04:33,634 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:122 - Could not get option chain for strike calculation
+2025-08-21 10:04:33,855 - src.options.option_chain_manager - ERROR - option_chain_manager.py:49 - Could not fetch spot price
+2025-08-21 10:04:33,856 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:443 - Could not fetch option premium for 25100CE
+2025-08-21 10:05:39,782 - src.options.option_chain_manager - ERROR - option_chain_manager.py:49 - Could not fetch spot price
+2025-08-21 10:05:39,783 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:122 - Could not get option chain for strike calculation
+2025-08-21 10:05:39,991 - src.options.option_chain_manager - ERROR - option_chain_manager.py:49 - Could not fetch spot price
+2025-08-21 10:05:39,993 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:443 - Could not fetch option premium for 25150CE
+2025-08-21 10:14:46,031 - src.options.option_chain_manager - ERROR - option_chain_manager.py:49 - Could not fetch spot price
+2025-08-21 10:14:46,037 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:122 - Could not get option chain for strike calculation
+2025-08-21 10:14:46,249 - src.options.option_chain_manager - ERROR - option_chain_manager.py:49 - Could not fetch spot price
+2025-08-21 10:14:46,258 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:443 - Could not fetch option premium for 25100PE
+2025-08-21 10:15:51,935 - src.options.option_chain_manager - ERROR - option_chain_manager.py:49 - Could not fetch spot price
+2025-08-21 10:15:51,936 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:122 - Could not get option chain for strike calculation
+2025-08-21 10:15:52,118 - src.options.option_chain_manager - ERROR - option_chain_manager.py:49 - Could not fetch spot price
+2025-08-21 10:15:52,153 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:443 - Could not fetch option premium for 25100PE
+2025-08-21 10:19:52,531 - src.options.option_chain_manager - ERROR - option_chain_manager.py:49 - Could not fetch spot price
+2025-08-21 10:19:52,532 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:122 - Could not get option chain for strike calculation
+2025-08-21 10:19:52,708 - src.options.option_chain_manager - ERROR - option_chain_manager.py:49 - Could not fetch spot price
+2025-08-21 10:19:52,714 - strategy.option_pine_v5 - ERROR - option_integrated_pine_script.py:443 - Could not fetch option premium for 25100CE
