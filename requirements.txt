@@ -1,0 +1,38 @@
+# ==================== requirements.txt ====================
+requests>=2.31.0
+pandas>=2.0.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+schedule>=1.2.0
+python-telegram-bot>=20.0
+fastapi>=0.100.0
+uvicorn>=0.20.0
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+aiohttp>=3.8.0
+numpy>=1.24.0,<2.0.0  # Pin numpy version for compatibility
+matplotlib>=3.7.0
+seaborn>=0.12.0
+# Technical analysis alternatives
+yfinance>=0.2.0      # For market data (optional)
+scipy>=1.10.0        # For advanced calculations
+scikit-learn>=1.3.0  # For additional analysis
+# Upstox WebSocket Support
+upstox-python-sdk>=1.9.0  # Official Upstox SDK with websockets
+protobuf>=4.21.0     # For market data decoding
+websocket-client>=1.6.0  # WebSocket client support
+# Optional: For database support
+sqlalchemy>=2.0.0
+# Optional: For caching
+redis>=4.0.0
+# Optional: For additional data processing
+dask>=2023.10.0
+# Optional: For web scraping
+beautifulsoup4>=4.12.0
+# Optional: For asynchronous HTTP requests
+httpx>=0.24.0
+# Optional: For data visualization
+plotly>=5.15.0
+aiohttp>=3.8.0
+scipy>=1.10.0  # For Greeks calculations

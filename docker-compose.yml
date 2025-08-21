@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  trading-bot:
+    build: .
+    container_name: trading_bot
+    restart: unless-stopped
+    environment:
+      - ENVIRONMENT=production
+    volumes:
+      - ./data:/app/data
+      - ./.env:/app/.env
+    ports:
+      - "8000:8000"  # Optional: for web interface
+    networks:
+      - trading_network
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  trading_network:
+    driver: bridge
